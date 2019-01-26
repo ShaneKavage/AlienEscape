@@ -671,3 +671,20 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.01.26-04.14.02:017][127]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerExampleMap_BuiltData8E6B6C8447579C64D6A2C89A3AECC26A.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
 [2019.01.26-04.14.05:911][360]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.21/Engine/Content: 'C:/Program Files/Epic Games/UE_4.21/Engine/Content' is outside repository
 [2019.01.26-04.14.07:598][360]LogSlate: Window 'Submit Files' being destroyed
+[2019.01.26-04.16.41:400][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.26-04.18.17:721][642]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-04.20.49:637][504]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.21/Engine/Content: 'C:/Program Files/Epic Games/UE_4.21/Engine/Content' is outside repository
+[2019.01.26-04.20.49:862][504]EditorErrors: Warning: No assets to check in!
+[2019.01.26-04.21.08:361][612]LogSlate: Window 'Source Control Login' being destroyed
+[2019.01.26-04.21.57:885][582]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-04.21.59:079][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.26-04.21.59:412][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2019.01.26-04.22.00:516][737]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-04.22.03:371][892]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerExampleMap480C8A6C4817D687B90493A2A9C95E56.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2019.01.26-04.22.03:392][892]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.170
+[2019.01.26-04.22.05:395][ 10]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.21/Engine/Content: 'C:/Program Files/Epic Games/UE_4.21/Engine/Content' is outside repository
+[2019.01.26-04.22.10:752][ 10]LogSlate: Window 'Submit Files' being destroyed
+[2019.01.26-04.22.11:713][ 10]LogSourceControl: commit successful: [master 1b512da] Try this on for size
+[2019.01.26-04.22.11:780][ 10]SourceControl: [master 1b512da] Try this on for size
+[2019.01.26-04.22.11:780][ 10]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2019.01.26-04.22.11:787][ 10]SourceControl: Commited [master 1b512da] Try this on for size.
