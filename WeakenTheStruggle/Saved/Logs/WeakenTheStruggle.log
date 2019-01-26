@@ -673,3 +673,103 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.01.26-17.16.13:905][855]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.01.26-17.16.14:778][959]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.01.26-17.16.19:744][496]LogSlate: Window 'Source Control Login' being destroyed
+[2019.01.26-17.16.48:513][931]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.18.05:026][710]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter
+[2019.01.26-17.18.47:873][219]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.26-17.18.47:974][220]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.WeakenTheStruggle
+[2019.01.26-17.18.47:974][220]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.01.26-17.18.47:974][220]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.01.26-17.18.47:974][220]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.01.26-17.18.47:991][221]LogTemp: BranchPath = LAPTOP-5TJ3H1P0/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = LAPTOP-5TJ3H1P0/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.01.26-17.18.48:014][222]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Shane\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.26-17.26.03:550][904]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.040
+[2019.01.26-17.26.03:551][904]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2019.01.26-17.26.03:565][904]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2019.01.26-17.26.03:565][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2019.01.26-17.26.03:600][904]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter_Auto16B0BF9884338C619B5FCC2AE53A67194.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto1.uasset'
+[2019.01.26-17.26.03:603][904]LogFileHelpers: Auto-saving content packages took 0.052
+[2019.01.26-17.26.36:089][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.26.36:163][929]LogSlate: Window 'Project Settings' being destroyed
+[2019.01.26-17.26.36:170][929]LogSlate: Window 'Project Settings' being destroyed
+[2019.01.26-17.26.37:674][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.26.52:785][601]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.26-17.26.52:892][603]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.WeakenTheStruggle
+[2019.01.26-17.26.52:892][603]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.01.26-17.26.52:892][603]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.01.26-17.26.52:892][603]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.01.26-17.26.52:901][603]LogTemp: BranchPath = LAPTOP-5TJ3H1P0/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = LAPTOP-5TJ3H1P0/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.01.26-17.26.52:944][605]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Shane\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.26-17.27.04:258][584]LogSlate: Window 'Project Settings' being destroyed
+[2019.01.26-17.27.04:266][584]LogSlate: Window 'Project Settings' being destroyed
+[2019.01.26-17.27.05:202][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.27.36:366][897]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.26-17.27.36:470][899]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.WeakenTheStruggle
+[2019.01.26-17.27.36:470][899]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.01.26-17.27.36:470][899]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.01.26-17.27.36:470][899]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.01.26-17.27.36:477][899]LogTemp: BranchPath = LAPTOP-5TJ3H1P0/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = LAPTOP-5TJ3H1P0/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.01.26-17.27.36:528][901]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Shane\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.26-17.28.55:118][ 81]Cmd: TRANSACTION UNDO
+[2019.01.26-17.28.55:118][ 81]LogEditorTransaction: Undo Clear Children
+[2019.01.26-17.31.40:426][961]LogSlate: Window 'Project Settings' being destroyed
+[2019.01.26-17.31.40:434][961]LogSlate: Window 'Project Settings' being destroyed
+[2019.01.26-17.31.41:466][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.32.32:098][460]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.26-17.33.00:800][323]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-17.33.00:869][323]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter0869CA7C403F4678DA391D8547F3ED3A.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-17.33.04:045][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.33.17:751][ 89]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.21/Engine/Content: 'C:/Program Files/Epic Games/UE_4.21/Engine/Content' is outside repository
+[2019.01.26-17.33.19:610][ 89]LogSlate: Window 'Submit Files' being destroyed
+[2019.01.26-17.33.49:618][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2019.01.26-17.33.53:815][547]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.33.53:876][553]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-17.33.53:891][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.33.53:891][553]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.26-17.33.53:903][553]LogPlayLevel: [PlayLevel] Compiling SideScrollerCharacter before play...
+[2019.01.26-17.33.54:104][553]LogPlayLevel: PlayLevel: Blueprint regeneration took 213 ms (1 blueprints)
+[2019.01.26-17.33.54:105][553]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 5:33:54 AM)
+[2019.01.26-17.33.54:117][553]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-17.33.54:138][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020711s)
+[2019.01.26-17.33.54:139][553]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-17.33.54:139][553]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2019.01.26-17.33.54:139][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.021928s)
+[2019.01.26-17.33.54:186][553]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-17.33.54:213][553]LogInit: FAudioDevice initialized.
+[2019.01.26-17.33.54:280][553]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-17.33.54:284][553]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.01.26-11.33.54
+[2019.01.26-17.33.54:284][553]LogWorld: Bringing up level for play took: 0.001998
+[2019.01.26-17.33.54:310][553]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.01.26-17.33.54:313][553]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.076
+[2019.01.26-17.33.54:313][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.34.08:937][105]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.34.08:937][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.34.08:971][105]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-17.34.08:972][105]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.34.09:009][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.34.09:037][107]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.01.26-17.34.12:378][452]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2019.01.26-17.34.18:796][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.34.18:864][ 14]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-17.34.18:878][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.34.18:879][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-17.34.18:879][ 14]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 5:34:18 AM)
+[2019.01.26-17.34.18:879][ 14]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-17.34.18:892][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013095s)
+[2019.01.26-17.34.18:892][ 14]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-17.34.18:893][ 14]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2019.01.26-17.34.18:893][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.013901s)
+[2019.01.26-17.34.18:942][ 14]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-17.34.18:967][ 14]LogInit: FAudioDevice initialized.
+[2019.01.26-17.34.19:000][ 14]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-17.34.19:006][ 14]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.01.26-11.34.19
+[2019.01.26-17.34.19:007][ 14]LogWorld: Bringing up level for play took: 0.004052
+[2019.01.26-17.34.19:026][ 14]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.638
+[2019.01.26-17.34.19:027][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.34.32:578][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.34.32:579][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.34.32:615][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-17.34.32:615][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.34.32:652][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.34.32:682][404]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.01.26-17.34.44:485][560]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'ACharacter::Jump' [Element not found.]
+[2019.01.26-17.34.49:941][160]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'ACharacter::Jump' [Element not found.]
