@@ -781,3 +781,1242 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.01.26-17.43.07:449][356]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerExampleMap_BuiltData516FBB4F4EEE22FDE9C84C8E097FFFDC.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
 [2019.01.26-17.45.38:573][278]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter503E3020402A6889EA5F70B872F08964.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
 [2019.01.26-17.45.40:081][368]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-17.52.04:083][720]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter65B3631D48CA487B6F5363BF77047960.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-17.52.04:473][743]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-17.52.10:404][ 81]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'ACharacter::Crouch' [Element not found.]
+[2019.01.26-17.52.16:093][421]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-17.52.16:105][421]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.52.16:106][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-17.52.16:106][421]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 5:52:16 AM)
+[2019.01.26-17.52.16:106][421]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-17.52.16:119][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013288s)
+[2019.01.26-17.52.16:120][421]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-17.52.16:120][421]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2019.01.26-17.52.16:120][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.014501s)
+[2019.01.26-17.52.16:158][421]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-17.52.16:182][421]LogInit: FAudioDevice initialized.
+[2019.01.26-17.52.16:214][421]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-17.52.16:217][421]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-11.52.16
+[2019.01.26-17.52.16:218][421]LogWorld: Bringing up level for play took: 0.002839
+[2019.01.26-17.52.16:235][421]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.152
+[2019.01.26-17.52.16:236][421]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.52.16:807][453]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.52.19:109][591]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.52.19:109][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.52.19:149][591]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-17.52.19:149][591]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.52.19:202][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.52.19:222][592]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.01.26-17.52.20:627][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.52.20:694][680]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-17.52.20:705][680]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.52.20:705][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-17.52.20:705][680]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 5:52:20 AM)
+[2019.01.26-17.52.20:705][680]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-17.52.20:717][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012501s)
+[2019.01.26-17.52.20:717][680]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-17.52.20:718][680]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2019.01.26-17.52.20:718][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.013406s)
+[2019.01.26-17.52.20:760][680]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-17.52.20:782][680]LogInit: FAudioDevice initialized.
+[2019.01.26-17.52.20:818][680]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-17.52.20:820][680]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-11.52.20
+[2019.01.26-17.52.20:820][680]LogWorld: Bringing up level for play took: 0.001163
+[2019.01.26-17.52.20:835][680]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.448
+[2019.01.26-17.52.20:836][680]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.52.31:819][335]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.52.32:869][398]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.52.34:986][525]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.52.35:936][582]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.52.36:803][634]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.52.37:720][689]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.52.38:186][717]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.52.39:569][800]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.52.48:053][309]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.52.52:487][575]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.53.10:191][637]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.53.11:877][738]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.53.11:877][738]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.53.11:915][738]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-17.53.11:915][738]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.53.11:949][738]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.53.12:000][740]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.01.26-17.53.13:626][810]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-17.53.27:930][653]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'ACharacter::Crouch' [Element not found.]
+[2019.01.26-17.53.33:987][  3]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'ACharacter::Crouch' [Element not found.]
+[2019.01.26-17.53.39:993][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.55.48:225][990]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.031
+[2019.01.26-17.55.48:227][990]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2019.01.26-17.55.48:241][990]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2019.01.26-17.55.48:241][990]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2019.01.26-17.55.48:275][990]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter_Auto1C497D6B94A6979D6493757927EE4021D.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto1.uasset'
+[2019.01.26-17.55.48:277][990]LogFileHelpers: Auto-saving content packages took 0.052
+[2019.01.26-17.55.51:211][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.59.13:152][304]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter0E60CBEE4E025BF4A6B32EA13A4EA3C1.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-17.59.20:553][744]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-17.59.22:550][838]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter5B2796B140AA594F681EA39C3B53C589.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-17.59.33:546][474]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerExampleMap018A9AB844EDFDC13BD53FBCE7D12314.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2019.01.26-17.59.33:884][474]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerExampleMap_BuiltData91436602493F1B0DFBFEBA898F3FE2EA.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.01.26-17.59.33:990][480]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-17.59.34:006][480]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.59.34:006][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-17.59.34:006][480]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 5:59:34 AM)
+[2019.01.26-17.59.34:006][480]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-17.59.34:020][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013307s)
+[2019.01.26-17.59.34:020][480]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-17.59.34:021][480]LogPlayLevel: PIE: World Init took: (0.001242s)
+[2019.01.26-17.59.34:021][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.014764s)
+[2019.01.26-17.59.34:063][480]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-17.59.34:091][480]LogInit: FAudioDevice initialized.
+[2019.01.26-17.59.34:122][480]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-17.59.34:126][480]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-11.59.34
+[2019.01.26-17.59.34:127][480]LogWorld: Bringing up level for play took: 0.003081
+[2019.01.26-17.59.34:144][480]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.244
+[2019.01.26-17.59.34:145][480]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.59.36:940][646]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.36:942][646]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.37:607][686]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.38:041][712]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.38:041][712]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.38:325][729]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.38:610][746]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.38:610][746]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.38:826][759]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.39:791][817]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.39:791][817]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.40:240][844]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.40:641][868]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.40:641][868]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.41:359][911]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.41:858][941]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.41:858][941]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.42:208][962]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.42:676][990]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.42:676][990]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.43:042][ 12]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.43:274][ 26]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.43:274][ 26]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.43:525][ 41]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.44:874][122]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.44:874][122]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.46:692][231]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.49:108][376]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.49:108][376]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.49:692][411]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.50:971][486]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.50:971][486]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.51:338][508]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.51:572][522]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.51:572][522]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.52:171][558]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.52:388][571]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.52:388][571]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.53:472][636]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.54:189][679]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.54:189][679]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.54:705][710]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.54:989][727]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.54:989][727]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.55:022][729]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.55:055][731]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.55:055][731]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.55:172][738]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.55:723][771]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.55:724][771]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.56:990][847]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-17.59.58:889][961]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-17.59.58:890][961]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-17.59.59:157][977]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.00.34:226][ 81]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.00.34:226][ 81]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.00.35:209][140]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.00.35:476][156]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.00.35:476][156]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.00.35:843][178]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.00.37:609][284]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.00.37:609][284]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.00.37:843][298]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.00.37:893][301]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.00.39:113][374]Set new viewmode: Wireframe
+[2019.01.26-18.00.40:009][428]Set new viewmode: Wireframe
+[2019.01.26-18.00.40:742][472]Set new viewmode: Wireframe
+[2019.01.26-18.00.40:742][472]Set new viewmode: Unlit
+[2019.01.26-18.00.41:276][504]Set new viewmode: Unlit
+[2019.01.26-18.00.41:543][520]Set new viewmode: Lit
+[2019.01.26-18.00.42:410][572]Set new viewmode: Unlit
+[2019.01.26-18.00.42:926][603]Set new viewmode: Unlit
+[2019.01.26-18.00.43:277][624]Set new viewmode: Wireframe
+[2019.01.26-18.00.43:527][639]Set new viewmode: Lit_DetailLighting
+[2019.01.26-18.00.44:176][678]Set new viewmode: Unlit
+[2019.01.26-18.00.44:476][696]Set new viewmode: Lit
+[2019.01.26-18.00.44:943][724]Set new viewmode: Lit_DetailLighting
+[2019.01.26-18.00.45:577][762]Set new viewmode: Lit
+[2019.01.26-18.00.46:260][803]Set new viewmode: Lit_DetailLighting
+[2019.01.26-18.00.46:510][818]Set new viewmode: ShaderComplexity
+[2019.01.26-18.00.47:399][871]Set new viewmode: ShaderComplexity
+[2019.01.26-18.00.48:932][963]Set new viewmode: ShaderComplexity
+[2019.01.26-18.00.49:233][981]Set new viewmode: Lit_DetailLighting
+[2019.01.26-18.00.49:599][  3]Set new viewmode: ShaderComplexity
+[2019.01.26-18.00.51:157][ 95]Set new viewmode: Lit_DetailLighting
+[2019.01.26-18.00.51:441][112]Set new viewmode: Lit
+[2019.01.26-18.00.52:041][148]Set new viewmode: ShaderComplexity
+[2019.01.26-18.00.53:824][255]Set new viewmode: Lit_DetailLighting
+[2019.01.26-18.00.54:457][293]Set new viewmode: Lit
+[2019.01.26-18.00.55:574][360]Set new viewmode: Unlit
+[2019.01.26-18.00.56:225][399]Set new viewmode: Wireframe
+[2019.01.26-18.00.58:274][522]Set new viewmode: Unlit
+[2019.01.26-18.00.59:142][574]Set new viewmode: Lit
+[2019.01.26-18.00.59:959][623]Set new viewmode: Lit_DetailLighting
+[2019.01.26-18.01.00:742][670]Set new viewmode: ShaderComplexity
+[2019.01.26-18.01.09:260][181]Set new viewmode: Wireframe
+[2019.01.26-18.01.10:377][248]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.01.10:377][248]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.01.11:544][318]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.01.12:046][348]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.01.12:046][348]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.01.13:112][412]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.01.13:477][434]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.01.13:478][434]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.01.13:778][452]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.01.14:178][476]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.01.14:178][476]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.01.14:527][497]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.01.17:244][660]Set new viewmode: Wireframe
+[2019.01.26-18.01.17:444][672]Set new viewmode: Unlit
+[2019.01.26-18.01.17:477][674]Set new viewmode: Lit
+[2019.01.26-18.01.17:761][691]Set new viewmode: Lit
+[2019.01.26-18.01.17:845][696]Set new viewmode: Lit_DetailLighting
+[2019.01.26-18.01.20:311][844]Set new viewmode: Lit_DetailLighting
+[2019.01.26-18.01.20:695][867]Set new viewmode: ShaderComplexity
+[2019.01.26-18.01.21:527][917]Set new viewmode: Wireframe
+[2019.01.26-18.01.21:828][935]Set new viewmode: Unlit
+[2019.01.26-18.01.22:028][947]Set new viewmode: Lit
+[2019.01.26-18.01.24:112][ 72]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.01.24:112][ 72]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.01.24:800][113]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.01.25:048][128]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.01.25:048][128]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.01.25:233][139]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.01.25:431][151]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.01.25:431][151]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.01.25:598][161]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.01.25:864][177]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.01.25:864][177]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.01.26:015][186]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.01.33:016][606]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.01.33:016][606]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.01.33:349][626]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.01.33:383][628]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.01.34:649][704]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.01.34:649][704]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.01.34:949][722]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.01.35:116][732]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.01.35:117][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.01.35:153][732]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.01.35:154][732]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.01.35:184][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.01.35:224][734]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.01.26-18.01.37:927][895]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.02.21:204][288]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.03.11:386][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.03.12:119][259]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.03.12:132][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.03.12:132][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.03.12:132][259]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 6:03:12 AM)
+[2019.01.26-18.03.12:132][259]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-18.03.12:144][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012350s)
+[2019.01.26-18.03.12:145][259]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-18.03.12:146][259]LogPlayLevel: PIE: World Init took: (0.001462s)
+[2019.01.26-18.03.12:146][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.014051s)
+[2019.01.26-18.03.12:183][259]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.03.12:208][259]LogInit: FAudioDevice initialized.
+[2019.01.26-18.03.12:241][259]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-18.03.12:243][259]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-12.03.12
+[2019.01.26-18.03.12:243][259]LogWorld: Bringing up level for play took: 0.001372
+[2019.01.26-18.03.12:258][259]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.129
+[2019.01.26-18.03.12:259][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.03.16:638][519]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.03.16:638][519]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.03.17:039][543]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.03.17:488][570]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.03.17:488][570]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.03.17:838][591]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.03.18:638][639]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.03.18:639][639]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.03.18:989][660]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.03.19:222][674]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.03.19:222][674]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.03.19:488][690]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.03.19:772][707]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.03.19:772][707]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.03.20:457][748]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.03.20:706][763]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.03.20:706][763]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.03.21:072][785]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.03.21:439][807]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.03.21:439][807]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.03.22:006][841]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.03.22:505][871]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.03.22:505][871]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.03.22:839][891]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.03.23:223][914]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.03.23:224][914]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.03.23:506][931]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.03.24:158][970]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.03.24:159][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.03.24:197][970]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.03.24:197][970]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.03.24:243][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.03.24:265][971]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.01.26-18.03.26:879][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.04.05:361][392]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.04.06:436][456]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/LockedDoors/DoorLvl1.DoorLvl1
+[2019.01.26-18.04.09:068][593]LogRenderer: Reallocating scene render targets to support 912x696 Format 10 NumSamples 1 (Frame:1).
+[2019.01.26-18.05.42:149][141]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.05.42:216][141]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter6EF9B2F345C2999A0EFA9D8C0255E686.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.06.11:858][395]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.06.15:902][530]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-18.06.54:179][732]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.26-18.06.54:254][733]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.WeakenTheStruggle
+[2019.01.26-18.06.54:254][733]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.01.26-18.06.54:254][733]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.01.26-18.06.54:254][733]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.01.26-18.06.54:258][733]LogTemp: BranchPath = LAPTOP-5TJ3H1P0/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = LAPTOP-5TJ3H1P0/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.01.26-18.06.54:276][733]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Shane\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.26-18.07.43:079][630]LogSlate: Window 'Project Settings' being destroyed
+[2019.01.26-18.07.43:087][630]LogSlate: Window 'Project Settings' being destroyed
+[2019.01.26-18.07.43:639][661]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.09.31:788][ 49]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.26-18.09.48:850][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.09.48:914][ 54]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter24BE45FE4535C62012BC58BF698B861E.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.09.49:664][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.14.16:660][894]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-18.14.18:654][991]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.14.18:725][991]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacterA5BB3DFA4F74A6DA671E4A88DC56AA5B.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.14.19:791][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.15.15:142][237]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.15.15:211][237]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter6E26AA614C0D6C37232817BDF4209072.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.15.15:745][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.16.37:864][145]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.16.37:931][145]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter0ACBF0D44321880CAF8276B7E0DAE06A.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.16.40:163][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.16.40:260][283]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-18.17.14:805][294]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.17.14:874][294]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter5F2F8A5C4E1E83537290BCB4570CE408.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.17.15:878][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.17.15:959][358]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-18.17.24:874][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.17.24:973][883]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.17.24:984][883]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.17.24:984][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.17.24:984][883]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 6:17:24 AM)
+[2019.01.26-18.17.24:984][883]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-18.17.24:998][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013314s)
+[2019.01.26-18.17.24:998][883]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-18.17.24:999][883]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2019.01.26-18.17.24:999][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.014395s)
+[2019.01.26-18.17.25:036][883]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.17.25:062][883]LogInit: FAudioDevice initialized.
+[2019.01.26-18.17.25:097][883]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-18.17.25:101][883]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-12.17.25
+[2019.01.26-18.17.25:103][883]LogWorld: Bringing up level for play took: 0.003139
+[2019.01.26-18.17.25:119][883]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.731
+[2019.01.26-18.17.25:119][883]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.17.27:657][ 33]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.17.27:738][ 38]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.17.30:082][177]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.17.30:648][211]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.17.30:816][221]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.17.30:915][227]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.17.31:451][259]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.17.31:516][263]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.17.33:483][381]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.17.33:483][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.17.33:522][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.17.33:523][381]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.17.33:572][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.17.33:593][382]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.26-18.17.35:269][458]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.18.12:328][623]LogEditorTransaction: Undo Delete current selection
+[2019.01.26-18.18.12:649][639]LogEditorTransaction: Undo Move Node
+[2019.01.26-18.18.13:107][664]LogEditorTransaction: Undo Add Node
+[2019.01.26-18.18.13:520][686]LogEditorTransaction: Undo Delete current selection
+[2019.01.26-18.18.14:929][762]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.18.15:001][762]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter4D15B6FA463331AD0DB1F69B0849BD59.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.18.28:221][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.18.28:553][573]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-18.18.32:909][806]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.18.32:990][811]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.18.33:002][811]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.18.33:002][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.18.33:002][811]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 6:18:33 AM)
+[2019.01.26-18.18.33:003][811]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-18.18.33:015][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012635s)
+[2019.01.26-18.18.33:016][811]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-18.18.33:016][811]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2019.01.26-18.18.33:016][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.013476s)
+[2019.01.26-18.18.33:055][811]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.18.33:078][811]LogInit: FAudioDevice initialized.
+[2019.01.26-18.18.33:111][811]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-18.18.33:113][811]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-12.18.33
+[2019.01.26-18.18.33:113][811]LogWorld: Bringing up level for play took: 0.001199
+[2019.01.26-18.18.33:128][811]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.74
+[2019.01.26-18.18.33:128][811]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.18.33:628][839]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.18.35:127][929]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.18.35:846][972]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.18.36:311][  0]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.18.36:694][ 23]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.18.36:961][ 39]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.18.37:359][ 63]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.18.37:560][ 75]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.18.37:727][ 85]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.18.37:893][ 95]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.18.38:060][105]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.18.38:210][114]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.18.38:360][123]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.18.38:595][137]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.18.38:595][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.18.38:631][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.18.38:631][137]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.18.38:664][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.18.38:703][139]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.01.26-18.18.40:337][206]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.19.24:165][784]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.19.24:234][784]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter65E91B794B540C67885F9EA25E630471.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.19.30:308][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.19.30:387][151]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-18.19.32:815][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.19.33:162][304]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.19.33:173][304]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.19.33:174][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.19.33:174][304]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 6:19:33 AM)
+[2019.01.26-18.19.33:174][304]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-18.19.33:187][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013526s)
+[2019.01.26-18.19.33:188][304]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-18.19.33:188][304]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2019.01.26-18.19.33:189][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.014720s)
+[2019.01.26-18.19.33:228][304]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.19.33:251][304]LogInit: FAudioDevice initialized.
+[2019.01.26-18.19.33:288][304]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-18.19.33:292][304]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-12.19.33
+[2019.01.26-18.19.33:293][304]LogWorld: Bringing up level for play took: 0.003072
+[2019.01.26-18.19.33:311][304]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.923
+[2019.01.26-18.19.33:311][304]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.19.33:835][333]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.19.35:134][411]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.19.35:452][430]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.19.35:685][444]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.19.35:986][462]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.19.36:303][481]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.19.36:486][492]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.19.36:651][502]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.19.36:851][514]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.19.37:051][526]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.19.37:284][540]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.19.37:501][553]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.19.37:668][563]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.19.37:984][582]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.19.38:151][592]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.19.38:318][602]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.19.38:468][611]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.19.38:637][621]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.19.38:819][632]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.19.38:819][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.19.38:853][632]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.19.38:853][632]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.19.38:885][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.19.38:922][634]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.01.26-18.19.42:037][773]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.20.19:259][954]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.20.19:330][954]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacterF7F5B4414C02BBF9EC9583B9C01D468A.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.20.32:284][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.20.34:776][158]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-18.20.44:183][698]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-18.20.45:972][783]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.20.46:041][783]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter08E1D6A540F6FA90572293A24079EC5F.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.20.46:803][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.20.47:485][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.20.47:551][873]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.20.47:564][873]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.20.47:564][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.20.47:564][873]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 6:20:47 AM)
+[2019.01.26-18.20.47:564][873]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-18.20.47:577][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012783s)
+[2019.01.26-18.20.47:578][873]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-18.20.47:578][873]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2019.01.26-18.20.47:578][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.013609s)
+[2019.01.26-18.20.47:618][873]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.20.47:642][873]LogInit: FAudioDevice initialized.
+[2019.01.26-18.20.47:671][873]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-18.20.47:673][873]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-12.20.47
+[2019.01.26-18.20.47:674][873]LogWorld: Bringing up level for play took: 0.001296
+[2019.01.26-18.20.47:689][873]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.698
+[2019.01.26-18.20.47:690][873]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.20.48:131][898]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.48:830][940]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.49:013][951]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.49:213][963]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.49:430][976]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.20.49:630][988]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.49:847][  1]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.50:047][ 13]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.50:247][ 25]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.50:547][ 43]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.20.50:731][ 54]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.50:896][ 64]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.51:064][ 74]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.51:214][ 83]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.51:347][ 91]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.20.51:513][101]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.51:663][110]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.51:847][121]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.52:013][131]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.52:164][140]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.20.52:747][175]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.52:897][184]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.53:063][194]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.53:230][204]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.53:397][214]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.20.53:563][224]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.53:747][235]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.53:898][244]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.54:047][253]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.54:197][262]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.20.54:363][272]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.54:513][281]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.54:680][291]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.54:830][300]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.54:980][309]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.20.59:497][580]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.59:713][593]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.20.59:931][606]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.21.00:164][620]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.21.00:899][664]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.21.02:114][737]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.21.02:415][755]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.21.02:547][763]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.21.02:731][774]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.21.02:897][784]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.21.03:048][793]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.21.03:197][802]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.21.03:364][812]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.21.03:514][821]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.21.03:648][829]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.21.03:814][839]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.21.04:032][852]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.21.15:184][521]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.21.15:184][521]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.21.15:417][535]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.21.15:452][537]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.22.18:971][345]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.22.18:971][345]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.22.19:155][356]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.22.19:188][358]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.22.19:522][378]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.22.19:522][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.22.19:563][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.22.19:563][378]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.22.19:604][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.22.19:626][379]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.01.26-18.22.26:090][766]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.26.08:631][766]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.27.23:073][164]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.27.23:145][164]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter9E580B05440EE55CC67739829FCBEA3F.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.27.28:093][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.27.36:185][924]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.27.36:256][924]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacterFCCCB8274CBB67C8586139AF19E5B222.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.28.27:669][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.28.40:562][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.28.40:613][774]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter86464B4347596BC02D61AAAFF9126300.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.28.42:165][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.30.00:561][790]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.30.00:618][790]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter884746024915797E851A928DFE5C37E9.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.30.01:343][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.30.05:568][896]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.30.55:680][453]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.26-18.30.59:855][696]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Projectiles/Shot1.Shot1
+[2019.01.26-18.31.19:264][757]LogEditorTransaction: Undo Add Component
+[2019.01.26-18.31.20:710][843]LogEditorTransaction: Redo Add Component
+[2019.01.26-18.31.21:354][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.31.28:620][316]LogEditorTransaction: Undo Modify Component(s)
+[2019.01.26-18.31.28:815][327]LogEditorTransaction: Undo Modify Component(s)
+[2019.01.26-18.31.51:579][938]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.31.54:865][120]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.32.00:219][404]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.32.03:696][603]LogTexture: Display: Building textures: T_MugLogo_D (AutoDXT, 512X512)
+[2019.01.26-18.32.03:696][603]LogStaticMesh: Building static mesh Mug...
+[2019.01.26-18.32.03:741][603]LogStaticMesh: Built static mesh [0.05s] /Game/GameJamKit/Meshes/Mug/Mug.Mug
+[2019.01.26-18.32.03:741][603]LogTexture: Display: Building textures: T_Mug_M (AutoDXT, 2048X2048)
+[2019.01.26-18.32.04:370][603]LogTexture: Display: Building textures: T_Mug_N (BC5, 2048X2048)
+[2019.01.26-18.32.04:370][603]LogMaterial: Display: Missing cached shader map for material M_Mug, compiling. 
+[2019.01.26-18.32.04:457][603]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.26-18.32.04:457][603]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.26-18.32.04:457][603]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.26-18.32.04:457][603]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.26-18.32.17:996][247]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.32.41:032][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.32.44:731][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.32.49:269][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.33.01:221][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.33.08:797][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.33.15:902][706]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.33.17:111][776]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.33.17:249][776]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Shot1F628E22841B7351FBF217CAB82E6ED32.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/Projectiles/Shot1.uasset'
+[2019.01.26-18.33.58:355][100]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.037
+[2019.01.26-18.33.58:358][100]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/Projectiles/Shot1] ([1] browsable assets)...
+[2019.01.26-18.33.58:371][100]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/Projectiles/Shot1.Shot1]
+[2019.01.26-18.33.58:372][100]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/Projectiles/Shot1]
+[2019.01.26-18.33.58:398][100]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Shot1_Auto2253753DA44F29D45AC85F79A36D75EF1.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Autosaves/Game/SideScrollerBP/Blueprints/Projectiles/Shot1_Auto2.uasset'
+[2019.01.26-18.33.58:400][100]LogFileHelpers: Auto-saving content packages took 0.043
+[2019.01.26-18.34.14:959][205]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.35.17:203][655]BlueprintLog: New page: Compile Shot1
+[2019.01.26-18.35.20:319][760]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Shot16080E89B4C0AFE77D4D35FADC6ED1289.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/Projectiles/Shot1.uasset'
+[2019.01.26-18.35.29:751][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.35.29:817][299]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.35.29:833][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.35.29:833][299]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.26-18.35.29:843][299]LogPlayLevel: [PlayLevel] Compiling SideScrollerCharacter before play...
+[2019.01.26-18.35.30:038][299]LogPlayLevel: PlayLevel: Blueprint regeneration took 204 ms (1 blueprints)
+[2019.01.26-18.35.30:038][299]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 6:35:30 AM)
+[2019.01.26-18.35.30:038][299]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-18.35.30:051][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012564s)
+[2019.01.26-18.35.30:052][299]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-18.35.30:052][299]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2019.01.26-18.35.30:052][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.013895s)
+[2019.01.26-18.35.30:096][299]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.35.30:120][299]LogInit: FAudioDevice initialized.
+[2019.01.26-18.35.30:156][299]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-18.35.30:158][299]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-12.35.30
+[2019.01.26-18.35.30:158][299]LogWorld: Bringing up level for play took: 0.001295
+[2019.01.26-18.35.30:174][299]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.214
+[2019.01.26-18.35.30:174][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.35.33:963][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.35.34:080][532]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.35.34:080][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.35.34:112][532]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.35.34:113][532]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.35.34:144][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.35.34:194][535]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.01.26-18.35.40:935][936]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.35.41:034][942]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.35.41:049][942]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.35.41:049][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.35.41:049][942]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 6:35:41 AM)
+[2019.01.26-18.35.41:049][942]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-18.35.41:062][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012540s)
+[2019.01.26-18.35.41:062][942]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-18.35.41:063][942]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2019.01.26-18.35.41:063][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.013423s)
+[2019.01.26-18.35.41:105][942]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.35.41:127][942]LogInit: FAudioDevice initialized.
+[2019.01.26-18.35.41:161][942]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-18.35.41:163][942]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-12.35.41
+[2019.01.26-18.35.41:163][942]LogWorld: Bringing up level for play took: 0.001073
+[2019.01.26-18.35.41:178][942]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.79
+[2019.01.26-18.35.41:178][942]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.35.43:862][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.35.43:963][107]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.35.43:963][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.35.44:000][107]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.35.44:000][107]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.35.44:036][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.35.44:067][109]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.01.26-18.35.44:717][148]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.35.44:734][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.35.44:734][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.35.44:734][148]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 6:35:44 AM)
+[2019.01.26-18.35.44:734][148]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-18.35.44:747][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012283s)
+[2019.01.26-18.35.44:747][148]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-18.35.44:747][148]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2019.01.26-18.35.44:748][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.013211s)
+[2019.01.26-18.35.44:789][148]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.35.44:813][148]LogInit: FAudioDevice initialized.
+[2019.01.26-18.35.44:843][148]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-18.35.44:845][148]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-12.35.44
+[2019.01.26-18.35.44:846][148]LogWorld: Bringing up level for play took: 0.001439
+[2019.01.26-18.35.44:859][148]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.471
+[2019.01.26-18.35.44:859][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.35.46:239][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.35.46:240][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.35.46:277][230]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.35.46:277][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.35.46:310][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.35.46:344][232]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.01.26-18.35.47:375][294]LogEditorViewport: Clicking on Actor (LMB): Shot1_C (Shot2)
+[2019.01.26-18.35.48:262][346]Cmd: DELETE
+[2019.01.26-18.35.48:262][346]Cmd: ACTOR DELETE
+[2019.01.26-18.35.48:273][346]LogEditorActor: Deleted Actor: Shot1_C
+[2019.01.26-18.35.48:327][346]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2019.01.26-18.35.52:417][592]LogEditorViewport: Clicking on Actor (LMB): Shot1_C (Shot1)
+[2019.01.26-18.35.53:069][630]Cmd: DELETE
+[2019.01.26-18.35.53:070][630]Cmd: ACTOR DELETE
+[2019.01.26-18.35.53:073][630]LogEditorActor: Deleted Actor: Shot1_C
+[2019.01.26-18.35.53:113][630]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.01.26-18.35.59:097][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2019.01.26-18.36.00:691][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.36.03:063][198]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerExampleMap4E761EE040CBFEFE88CE32829CD1B5A7.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2019.01.26-18.36.03:084][198]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.236
+[2019.01.26-18.36.11:507][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.26-18.36.17:812][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.36.54:025][901]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.36.56:610][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.37.02:068][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.26-18.37.11:674][528]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.38.41:236][235]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.26-18.38.54:798][ 21]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter64F69F7D46F5EBFE02C61ABE6D97E74E.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.45.10:094][697]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-18.45.10:124][697]LogBlueprint: Error: [Compiler SideScrollerCharacter] This blueprint (self) is not a PlayerCameraManager, therefore ' Target ' must have a connection.
+[2019.01.26-18.45.10:301][697]LogBlueprint: Warning: [Compiler SideScrollerCharacter] [3933.79] Compile of SideScrollerCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 206 ms] (/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter)
+[2019.01.26-18.46.36:642][825]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-18.46.38:725][921]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter0005C1AD4C406B291D7F6C9569E9CFD4.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.46.41:940][111]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.46.41:953][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.46.41:953][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.46.41:953][111]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 6:46:41 AM)
+[2019.01.26-18.46.41:953][111]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-18.46.41:967][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014188s)
+[2019.01.26-18.46.41:968][111]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-18.46.41:969][111]LogPlayLevel: PIE: World Init took: (0.001160s)
+[2019.01.26-18.46.41:969][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.015573s)
+[2019.01.26-18.46.42:012][111]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.46.42:036][111]LogInit: FAudioDevice initialized.
+[2019.01.26-18.46.42:069][111]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-18.46.42:071][111]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-12.46.42
+[2019.01.26-18.46.42:072][111]LogWorld: Bringing up level for play took: 0.002127
+[2019.01.26-18.46.42:088][111]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.3
+[2019.01.26-18.46.42:088][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.46.44:071][228]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.44:869][276]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.45:252][299]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.45:536][316]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.45:785][331]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.46.46:187][355]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.46:588][379]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.47:019][405]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.47:352][425]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.47:736][448]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.46.48:136][472]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.49:498][551]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.49:913][576]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.50:297][599]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.50:597][617]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.46.51:247][656]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.51:681][682]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.52:782][748]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.53:081][766]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.53:398][785]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.46.53:632][799]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.53:865][813]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.57:918][ 56]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.58:365][ 83]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.58:648][100]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.46.58:915][116]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.59:298][139]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.46.59:714][164]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.47.00:298][199]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.47.00:731][225]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.47.01:149][250]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.47.01:832][291]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.47.03:948][418]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.47.03:948][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.47.03:984][418]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.47.03:985][418]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.47.04:025][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.47.04:049][419]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.01.26-18.47.05:049][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.50.16:498][629]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-18.50.18:378][727]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.50.18:390][727]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.50.18:390][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.50.18:391][727]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 6:50:18 AM)
+[2019.01.26-18.50.18:391][727]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-18.50.18:404][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013511s)
+[2019.01.26-18.50.18:405][727]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-18.50.18:405][727]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2019.01.26-18.50.18:405][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.014193s)
+[2019.01.26-18.50.18:449][727]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.50.18:475][727]LogInit: FAudioDevice initialized.
+[2019.01.26-18.50.18:507][727]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-18.50.18:508][727]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-12.50.18
+[2019.01.26-18.50.18:509][727]LogWorld: Bringing up level for play took: 0.001172
+[2019.01.26-18.50.18:522][727]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.134
+[2019.01.26-18.50.18:522][727]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.50.18:994][754]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.19:442][781]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.19:624][792]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.19:841][805]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.20:057][818]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.50.20:325][834]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.20:741][859]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.20:959][872]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.21:225][888]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.21:458][902]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.50.21:708][917]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.21:958][932]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.22:275][951]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.22:642][973]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.23:142][  3]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.50.23:775][ 41]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.24:075][ 59]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.50.24:075][ 59]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.50.24:159][ 64]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.50.24:808][103]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.25:209][127]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.25:575][149]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.25:975][173]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.50.26:242][189]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.26:643][213]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.26:926][230]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.27:346][255]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.27:793][282]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.50.28:009][295]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.28:259][310]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.28:476][323]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.28:710][337]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.28:925][350]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.50.29:143][363]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.29:443][381]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.29:628][392]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.29:826][404]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.30:026][416]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.50.30:243][429]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.30:426][440]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.30:593][450]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.30:776][461]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.30:993][474]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.50.31:193][486]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.32:326][554]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.32:576][569]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.33:109][601]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.33:259][610]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.50.33:412][619]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.33:560][628]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.33:726][638]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.33:910][649]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.50.35:578][749]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.50.35:578][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.50.35:615][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.50.35:615][749]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.50.35:649][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.50.35:688][751]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.01.26-18.50.36:438][796]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.50.53:740][608]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacterEC5492434AF5DFB128EC0FBB31FC487B.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.51.15:908][933]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Projectiles/Shot1.Shot1
+[2019.01.26-18.51.50:926][ 14]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-18.52.22:066][817]LogTexture: Display: Building textures: T_SquareMaskTightEdge (AutoDXT, 512X512)
+[2019.01.26-18.52.22:066][817]LogTexture: Display: Building textures: T_TileNoise (AutoDXT, 2048X2048)
+[2019.01.26-18.52.22:066][817]LogMaterial: Display: Missing cached shader map for material M_MuzzleGlow, compiling. 
+[2019.01.26-18.52.22:097][817]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.01.26-18.52.22:097][817]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.26-18.52.22:097][817]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.26-18.52.22:097][817]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.26-18.52.28:176][934]LogTexture: Display: Building textures: T_LargeWaves_H (G8, 1024X1024)
+[2019.01.26-18.52.28:176][934]LogTexture: Display: Building textures: T_LargeWaves_N (BC5, 1024X1024)
+[2019.01.26-18.52.28:176][934]LogTexture: Display: Building textures: T_Seafoam_01 (AutoDXT, 2048X2048)
+[2019.01.26-18.52.28:176][934]LogTexture: Display: Building textures: T_SmallWaves_N (BC5, 512X512)
+[2019.01.26-18.52.28:176][934]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.26-18.52.28:176][934]LogMaterial: Display: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2019.01.26-18.52.28:306][934]LogShaderCompilers: Display: Shaders left to compile 93
+[2019.01.26-18.52.28:306][934]LogShaderCompilers: Display: Shaders left to compile 83
+[2019.01.26-18.52.28:306][934]LogShaderCompilers: Display: Shaders left to compile 73
+[2019.01.26-18.52.28:306][934]LogShaderCompilers: Display: Shaders left to compile 63
+[2019.01.26-18.52.28:306][934]LogMaterial: Display: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2019.01.26-18.52.31:560][107]LogShaderCompilers: Display: Shaders left to compile 146
+[2019.01.26-18.52.31:936][128]LogShaderCompilers: Display: Shaders left to compile 136
+[2019.01.26-18.52.32:139][140]LogShaderCompilers: Display: Shaders left to compile 126
+[2019.01.26-18.52.32:656][169]LogShaderCompilers: Display: Shaders left to compile 116
+[2019.01.26-18.52.34:940][293]LogShaderCompilers: Display: Shaders left to compile 106
+[2019.01.26-18.52.36:453][372]LogShaderCompilers: Display: Shaders left to compile 96
+[2019.01.26-18.52.38:605][497]LogShaderCompilers: Display: Shaders left to compile 86
+[2019.01.26-18.52.39:172][530]LogShaderCompilers: Display: Shaders left to compile 76
+[2019.01.26-18.52.40:659][618]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.01.26-18.52.41:142][646]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.01.26-18.52.41:991][693]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.01.26-18.52.42:384][716]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.01.26-18.52.43:983][808]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.26-18.52.44:301][827]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.26-18.52.45:357][888]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.26-18.52.46:350][943]BlueprintLog: New page: Compile Shot1
+[2019.01.26-18.52.50:877][140]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacterCBB5F9A54C04A95D81604FAEB20F507A.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-18.52.50:934][140]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Shot1D0D550C64006F21856B786B90A48DB8D.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/Projectiles/Shot1.uasset'
+[2019.01.26-18.52.51:319][162]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.52.51:335][162]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.52.51:336][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.52.51:336][162]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 6:52:51 AM)
+[2019.01.26-18.52.51:336][162]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-18.52.51:350][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013818s)
+[2019.01.26-18.52.51:351][162]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-18.52.51:351][162]LogPlayLevel: PIE: World Init took: (0.000991s)
+[2019.01.26-18.52.51:351][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.015027s)
+[2019.01.26-18.52.51:410][162]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.52.51:440][162]LogInit: FAudioDevice initialized.
+[2019.01.26-18.52.51:473][162]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-18.52.51:477][162]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-12.52.51
+[2019.01.26-18.52.51:478][162]LogWorld: Bringing up level for play took: 0.003180
+[2019.01.26-18.52.51:496][162]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.108
+[2019.01.26-18.52.51:496][162]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.52.51:962][188]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.52:430][216]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.52:628][228]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.52:813][239]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.52:995][250]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.52.53:178][261]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.53:395][274]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.53:881][303]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.54:280][327]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.54:578][345]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.52.54:947][367]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.55:546][403]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.56:129][438]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.56:747][475]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.57:229][504]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.52.57:429][516]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.57:662][530]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.57:846][541]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.58:078][555]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.58:330][570]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.52.58:564][584]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.59:213][623]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.59:496][640]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.52.59:879][663]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.00:112][677]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.00:297][688]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.01:013][731]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.01:265][746]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.01:480][759]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.01:728][774]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.01:946][787]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.02:263][806]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.02:579][825]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.03:097][856]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.03:329][870]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.03:530][882]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.03:847][901]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.04:079][915]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.04:280][927]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.04:462][938]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.05:531][  2]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.05:830][ 20]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.06:080][ 35]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.06:332][ 50]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.06:579][ 65]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.06:813][ 79]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.07:097][ 96]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.07:363][112]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.07:614][127]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.07:846][141]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.08:113][157]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.08:464][178]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.08:848][201]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.09:230][224]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.09:696][252]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.10:013][271]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.10:397][294]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.11:898][384]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.12:264][406]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.12:713][433]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.13:347][471]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.13:664][490]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.14:014][511]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.14:347][531]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.14:715][553]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.15:198][582]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.15:547][603]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.15:782][617]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.17:631][728]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.17:913][745]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.18:199][762]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.18:615][787]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.18:814][799]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.18:981][809]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.19:147][819]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.19:330][830]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.19:499][840]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.19:665][850]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.19:998][870]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.20:264][886]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.20:515][901]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.20:759][914]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.20:941][925]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.21:175][939]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.21:343][949]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.21:545][961]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.21:727][972]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.21:925][984]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.22:109][995]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.22:274][  5]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.22:460][ 16]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.22:676][ 29]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.22:861][ 40]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.23:041][ 51]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.23:258][ 64]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.23:459][ 76]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.23:642][ 87]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.23:842][ 99]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.24:025][110]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.25:625][206]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.25:809][217]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.25:992][228]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.26:194][240]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.26:360][250]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.26:509][259]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.26:709][271]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.26:892][282]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.27:076][293]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.27:242][303]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.27:425][314]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.27:611][325]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.27:793][336]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.27:992][348]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.28:192][360]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.28:375][371]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.28:575][383]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.28:809][397]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.29:042][411]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.29:275][425]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.29:509][439]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.29:743][453]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.29:743][453]LogCharacterMovement: SideScrollerCharacter_C_0 is stuck and failed to move! Velocity: X=0.00 Y=353.21 Z=0.00 Location: X=1199.00 Y=840.89 Z=1020.41 Normal: X=0.76 Y=-0.65 Z=0.00 PenetrationDepth:0.072 Actor:DoorLvl1_2 Component:Cube BoneName:None (0 other events since notify)
+[2019.01.26-18.53.29:961][466]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.30:176][479]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.30:409][493]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.30:625][506]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.30:742][513]LogCharacterMovement: SideScrollerCharacter_C_0 is stuck and failed to move! Velocity: X=0.00 Y=69.19 Z=0.00 Location: X=1199.00 Y=841.45 Z=1020.41 Normal: X=0.77 Y=-0.64 Z=0.00 PenetrationDepth:0.422 Actor:DoorLvl1_2 Component:Cube BoneName:None (29 other events since notify)
+[2019.01.26-18.53.31:741][573]LogCharacterMovement: SideScrollerCharacter_C_0 is stuck and failed to move! Velocity: X=0.00 Y=69.17 Z=0.00 Location: X=1199.00 Y=841.45 Z=1020.41 Normal: X=0.77 Y=-0.64 Z=0.00 PenetrationDepth:0.422 Actor:DoorLvl1_2 Component:Cube BoneName:None (12 other events since notify)
+[2019.01.26-18.53.32:775][635]LogCharacterMovement: SideScrollerCharacter_C_0 is stuck and failed to move! Velocity: X=0.00 Y=231.36 Z=0.00 Location: X=1199.00 Y=841.39 Z=1020.41 Normal: X=0.77 Y=-0.64 Z=0.00 PenetrationDepth:0.385 Actor:DoorLvl1_2 Component:Cube BoneName:None (3 other events since notify)
+[2019.01.26-18.53.34:893][762]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.35:127][776]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.35:558][802]LogCharacterMovement: SideScrollerCharacter_C_0 is stuck and failed to move! Velocity: X=0.00 Y=-184.68 Z=0.00 Location: X=1199.00 Y=918.57 Z=1020.41 Normal: X=0.77 Y=0.64 Z=0.00 PenetrationDepth:0.422 Actor:DoorLvl1_2 Component:Cube BoneName:None (14 other events since notify)
+[2019.01.26-18.53.35:677][809]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.35:927][824]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.36:444][855]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.36:676][869]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.36:861][880]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.37:059][892]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.37:243][903]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.37:442][915]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.37:576][923]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.37:760][934]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.37:926][944]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.38:128][956]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.38:326][968]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.38:510][979]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.38:676][989]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.38:861][  0]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.39:059][ 12]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.39:259][ 24]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.39:443][ 35]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.39:643][ 47]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.39:860][ 60]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.40:093][ 74]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.40:310][ 87]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.40:527][100]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.40:727][112]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.40:943][125]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.41:162][138]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.41:359][150]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.41:576][163]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.41:877][181]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.42:209][201]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.42:478][217]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.42:777][235]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.43:077][253]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.43:396][272]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.43:662][288]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.43:928][304]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.44:177][319]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.44:444][335]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.44:728][352]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.45:027][370]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.45:312][387]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.45:612][405]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.45:911][423]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.46:346][449]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.46:744][473]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.47:063][492]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.47:327][508]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.47:629][526]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.47:895][542]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.48:178][559]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.48:411][573]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.48:645][587]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.48:844][599]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.49:045][611]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.49:244][623]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.49:428][634]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.49:577][643]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.49:762][654]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.50:063][672]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.50:261][684]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.50:462][696]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.50:678][709]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.51:278][745]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.51:545][761]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.51:778][775]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.51:995][788]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.52:211][801]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.52:428][814]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.52:611][825]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.52:813][837]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.53:011][849]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.56:513][ 59]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.56:897][ 82]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.57:313][107]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.57:597][124]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.57:778][135]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.57:979][147]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.58:162][158]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.58:379][171]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.58:595][184]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.58:829][198]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.59:028][210]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.53.59:228][222]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.59:412][233]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.59:629][246]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.53.59:829][258]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.00:030][270]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.00:229][282]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.00:446][295]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.00:696][310]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.00:896][322]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.01:128][336]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.01:329][348]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.01:545][361]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.01:762][374]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.01:979][387]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.02:178][399]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.02:362][410]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.02:564][422]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.02:764][434]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.02:948][445]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.03:148][457]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.03:332][468]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.03:531][480]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.04:315][527]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.04:499][538]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.04:698][550]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.04:949][565]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.05:164][578]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.05:365][590]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.05:565][602]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.05:748][613]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.05:933][624]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.06:150][637]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.06:348][649]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.06:533][660]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.06:715][671]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.06:900][682]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.07:067][692]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.07:248][703]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.07:432][714]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.07:764][734]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.07:982][747]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.08:998][808]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.09:165][818]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.09:365][830]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.09:581][843]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.09:782][855]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.10:001][868]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.10:232][882]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.10:466][896]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.10:699][910]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.10:948][925]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.11:199][940]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.11:432][954]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.11:765][974]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.11:982][987]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.12:215][  1]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.12:432][ 14]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.12:631][ 26]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.12:848][ 39]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.13:081][ 53]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.13:369][ 70]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.13:636][ 86]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.13:885][101]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.14:186][119]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.14:487][137]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.14:754][153]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.15:004][168]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.15:220][181]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.15:487][197]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.15:704][210]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.15:971][226]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.16:220][241]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.16:454][255]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.16:704][270]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.17:021][289]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.17:338][308]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.17:688][329]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.18:038][350]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.18:272][364]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.18:555][381]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.18:771][394]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.20:188][479]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.20:455][495]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.20:655][507]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.20:872][520]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.21:121][535]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.21:355][549]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.21:572][562]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.24:085][711]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.24:116][713]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.54.24:383][729]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.24:617][743]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.24:817][755]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.24:985][765]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.54.25:453][793]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.54.25:453][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.54.25:492][793]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.54.25:492][793]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.54.25:539][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.54.25:563][794]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.01.26-18.54.28:529][971]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.54.33:473][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.55.02:928][552]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.55.05:118][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.55.05:185][686]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.55.05:200][686]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.55.05:200][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.55.05:200][686]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 6:55:05 AM)
+[2019.01.26-18.55.05:200][686]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-18.55.05:213][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012637s)
+[2019.01.26-18.55.05:213][686]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-18.55.05:213][686]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2019.01.26-18.55.05:213][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.013532s)
+[2019.01.26-18.55.05:255][686]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.55.05:277][686]LogInit: FAudioDevice initialized.
+[2019.01.26-18.55.05:309][686]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-18.55.05:312][686]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-12.55.05
+[2019.01.26-18.55.05:312][686]LogWorld: Bringing up level for play took: 0.001656
+[2019.01.26-18.55.05:329][686]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.94
+[2019.01.26-18.55.05:329][686]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.55.06:281][741]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.55.06:897][778]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.55.06:997][784]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.55.06:997][784]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.55.07:164][794]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.55.07:348][805]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.55.07:530][816]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.55.07:731][828]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.55.07:930][840]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.55.08:164][854]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.55.08:448][871]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.55.08:698][886]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.55.09:263][920]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.55.09:263][920]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.55.09:564][938]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.55.09:832][954]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.26-18.55.09:832][954]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] You Crouching
+[2019.01.26-18.55.09:997][964]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Alien not Crouching
+[2019.01.26-18.55.10:297][982]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Too Many bullets
+[2019.01.26-18.55.10:514][995]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.55.10:731][  8]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.55.10:948][ 21]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Spawn projectile now
+[2019.01.26-18.55.11:831][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.55.11:831][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.55.11:867][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.55.11:868][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-18.55.11:902][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.55.11:937][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_29
