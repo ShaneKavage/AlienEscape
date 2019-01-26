@@ -1,4 +1,4 @@
-﻿Log file open, 01/25/19 22:13:30
+﻿Log file open, 01/26/19 00:17:24
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: WeakenTheStruggle
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.327626
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.545972
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.094s to configure plugins.
+LogStreaming: Display: Took  0.122s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,12 +118,12 @@ LogInit: Build: ++UE4+Release-4.21-CL-4753647
 LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
 LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
 LogInit: Net CL: 4541578
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 520
 LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.21
-LogInit: Command Line:  -EpicPortal -epicusername=ZegnaZX -epicuserid=cae67c0b0aa04189a639136c0e3660ff -epiclocale=en-US
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 22
@@ -149,542 +149,502 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.01.26-04.13.31:440][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.01.26-04.13.31:440][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.01.26-04.13.31:440][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
-[2019.01.26-04.13.31:440][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.01.26-04.13.31:440][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2019.01.26-04.13.31:440][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2019.01.26-04.13.31:440][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2019.01.26-04.13.31:440][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2019.01.26-04.13.31:440][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DOF.Algorithm:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.EarlyZPassMovable:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2019.01.26-04.13.31:441][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[vr.MonoscopicFarField:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
-[2019.01.26-04.13.31:442][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.01.26-04.13.31:442][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
-[2019.01.26-04.13.31:442][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
-[2019.01.26-04.13.31:446][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:446][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.01.26-04.13.31:446][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.01.26-04.13.31:446][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:446][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.01.26-04.13.31:446][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:446][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.01.26-04.13.31:446][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.01.26-04.13.31:446][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.01.26-04.13.31:446][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.01.26-04.13.31:446][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.01.26-04.13.31:447][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.01.26-04.13.31:448][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.01.26-04.13.31:448][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.01.26-04.13.31:448][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.01.26-04.13.31:448][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.01.26-04.13.31:448][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.01.26-04.13.31:448][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.01.26-04.13.31:448][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.01.26-04.13.31:448][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.01.26-04.13.31:448][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:448][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.01.26-04.13.31:448][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.01.26-04.13.31:448][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.26-04.13.31:448][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.26-04.13.31:457][  0]LogHAL: Display: Platform has ~ 16 GB [17033236480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.26-04.13.31:457][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.01.26-04.13.31:457][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.26-04.13.31:457][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:457][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.01.26-04.13.31:457][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.01.26-04.13.31:457][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:457][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.01.26-04.13.31:457][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:457][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.01.26-04.13.31:457][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.01.26-04.13.31:457][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.01.26-04.13.31:457][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.01.26-04.13.31:457][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.01.26-04.13.31:457][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.01.26-04.13.31:457][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.01.26-04.13.31:457][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.01.26-04.13.31:458][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.01.26-04.13.31:459][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.01.26-04.13.31:459][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
-[2019.01.26-04.13.31:459][  0]LogInit: Computer: LAPTOP-5TJ3H1P0
-[2019.01.26-04.13.31:459][  0]LogInit: User: Shane
-[2019.01.26-04.13.31:459][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.01.26-04.13.31:459][  0]LogInit: High frequency timer resolution =2.742189 MHz
-[2019.01.26-04.13.31:459][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.01.26-04.13.31:459][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.26-04.13.31:459][  0]LogMemory: Process Physical Memory: 103.62 MB used, 103.62 MB peak
-[2019.01.26-04.13.31:459][  0]LogMemory: Process Virtual Memory: 90.37 MB used, 90.37 MB peak
-[2019.01.26-04.13.31:459][  0]LogMemory: Physical Memory: 6478.52 MB used,  9765.64 MB free, 16244.16 MB total
-[2019.01.26-04.13.31:459][  0]LogMemory: Virtual Memory: 4636.84 MB used,  134213088.00 MB free, 134217728.00 MB total
-[2019.01.26-04.13.31:551][  0]LogInit: Using OS detected language (en-US).
-[2019.01.26-04.13.31:551][  0]LogInit: Using OS detected locale (en-US).
-[2019.01.26-04.13.31:553][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.26-04.13.31:953][  0]LogStreaming: Display: Took  0.403s to InitEngineTextLocalization.
-[2019.01.26-04.13.31:953][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.26-04.13.31:993][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.26-04.13.31:993][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.26-04.13.32:299][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.26-04.13.32:299][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.26-04.13.32:379][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2019.01.26-04.13.32:379][  0]LogD3D11RHI:       6052/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.01.26-04.13.32:402][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.01.26-04.13.32:402][  0]LogD3D11RHI:       128/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.01.26-04.13.32:404][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.26-04.13.32:404][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.26-04.13.32:404][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.26-04.13.32:432][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.26-04.13.32:433][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.26-04.13.32:433][  0]LogWindows: EnumDisplayDevices:
-[2019.01.26-04.13.32:433][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2019.01.26-04.13.32:433][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.01.26-04.13.32:433][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.01.26-04.13.32:434][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.01.26-04.13.32:434][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.01.26-04.13.32:434][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.01.26-04.13.32:435][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.01.26-04.13.32:435][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.01.26-04.13.32:435][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2019.01.26-04.13.32:435][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
-[2019.01.26-04.13.32:435][  0]LogD3D11RHI:      Driver Date: 7-30-2018
-[2019.01.26-04.13.32:435][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2019.01.26-04.13.32:481][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.26-04.13.32:504][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.01.26-04.13.32:905][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.26-04.13.32:921][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.26-04.13.32:939][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.26-04.13.32:957][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.26-04.13.32:974][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.26-04.13.32:992][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.26-04.13.33:009][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.26-04.13.33:042][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.26-04.13.33:053][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-04.13.33:144][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.26-04.13.33:214][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.26-04.13.33:214][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.26-04.13.33:267][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.26-04.13.33:267][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.26-04.13.33:289][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.26-04.13.33:305][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.26-04.13.33:322][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.26-04.13.33:338][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.26-04.13.33:388][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.26-04.13.33:388][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.26-04.13.33:389][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.26-04.13.33:559][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Intermediate/Shaders/WorkingDirectory/6320/).
-[2019.01.26-04.13.33:560][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shane/AppData/Local/Temp/UnrealShaderWorkingDir/3DC345334345495AABDADE96115D176E/'.
-[2019.01.26-04.13.33:563][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.26-04.13.33:563][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.26-04.13.33:563][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.26-04.13.34:136][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.26-04.13.34:187][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Shane/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.01.26-04.13.34:188][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Shane/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.01.26-04.13.34:188][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.26-04.13.34:188][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.26-04.13.34:188][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.26-04.13.34:188][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.26-04.13.34:201][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.26-04.13.34:201][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.26-04.13.34:201][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.01.26-04.13.34:213][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shane/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.26-04.13.34:213][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.26-04.13.34:213][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.26-04.13.34:236][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.26-04.13.34:239][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.26-04.13.34:239][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.26-04.13.34:344][  0]LogAssetRegistry: FAssetRegistry took 0.0335 seconds to start up
-[2019.01.26-04.13.34:688][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.26-04.13.34:794][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.26-04.13.34:806][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.26-04.13.34:806][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.26-04.13.34:806][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.26-04.13.34:806][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.26-04.13.34:905][  0]LogNetVersion: WeakenTheStruggle 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 128312146)
-[2019.01.26-04.13.35:471][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.099644 seconds
-[2019.01.26-04.13.35:477][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.01.26-04.13.35:477][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
-[2019.01.26-04.13.35:477][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.26-04.13.36:801][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.26-04.13.36:819][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.26-04.13.37:851][  0]SourceControl: Source control is disabled
-[2019.01.26-04.13.37:851][  0]SourceControl: Source control is disabled
-[2019.01.26-04.13.37:878][  0]SourceControl: Source control is disabled
-[2019.01.26-04.13.37:881][  0]SourceControl: Source control is disabled
-[2019.01.26-04.13.38:310][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.26-04.13.38:430][  0]LogOcInput: OculusInput pre-init called
-[2019.01.26-04.13.38:661][  0]LogEngine: Initializing Engine...
-[2019.01.26-04.13.38:662][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.26-04.13.38:663][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.26-04.13.38:663][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.26-04.13.38:663][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.26-04.13.38:663][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.26-04.13.38:906][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.26-04.13.38:928][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.26-04.13.38:942][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-04.13.39:015][  0]LogInit: FAudioDevice initialized.
-[2019.01.26-04.13.39:016][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.26-04.13.39:067][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/Shane/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.01.26-04.13.39:072][  0]LogInit: Texture streaming: Enabled
-[2019.01.26-04.13.39:109][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.26-04.13.39:127][  0]LogInit: Transaction tracking system initialized
-[2019.01.26-04.13.39:178][  0]BlueprintLog: New page: Editor Load
-[2019.01.26-04.13.39:397][  0]LocalizationService: Localization service is disabled
-[2019.01.26-04.13.39:966][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/' took 0.01s
-[2019.01.26-04.13.39:966][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.26-04.13.39:966][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.26-04.13.39:966][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.26-04.13.39:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.26-04.13.39:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.26-04.13.39:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.26-04.13.39:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.26-04.13.40:257][  0]SourceControl: Source control is disabled
-[2019.01.26-04.13.40:257][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.26-04.13.40:257][  0]LightingResults: New page: Lighting Build
-[2019.01.26-04.13.40:261][  0]MapCheck: New page: Map Check
-[2019.01.26-04.13.40:261][  0]LightingResults: New page: Lighting Build
-[2019.01.26-04.13.40:658][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2019.01.26-04.13.40:674][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.26-04.13.40:698][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.26-04.13.40:699][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.16ms to complete.
-[2019.01.26-04.13.40:699][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.441
-[2019.01.26-04.13.40:798][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-04.13.40:808][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-04.13.40:815][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-04.13.40:823][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-04.13.40:832][  0]LogCollectionManager: Loaded 0 collections in 0.002394 seconds
-[2019.01.26-04.13.40:878][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Collections/' took 0.01s
-[2019.01.26-04.13.40:879][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/Developers/Shane/Collections/' took 0.01s
-[2019.01.26-04.13.40:879][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/Collections/' took 0.01s
-[2019.01.26-04.13.40:879][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.01.26-04.13.40:896][  0]LogContentBrowser: Native class hierarchy populated in 0.0173 seconds. Added 2651 classes and 620 folders.
-[2019.01.26-04.13.40:908][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.26-04.13.40:910][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:911][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:912][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:913][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:913][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:914][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:915][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:916][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:916][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:917][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:918][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:919][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:919][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:920][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:921][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:922][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:922][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:923][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:924][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:925][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:925][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:926][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:927][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:928][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:928][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:929][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.26-04.13.40:993][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.26-04.13.41:002][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.01.26-04.13.41:022][  0]LogSlate: Took 0.001027 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.26-04.13.41:025][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.26-04.13.41:031][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.26-04.13.41:101][  0]LogRenderer: Reallocating scene render targets to support 828x580 Format 10 NumSamples 1 (Frame:1).
-[2019.01.26-04.13.41:243][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.26-04.13.41:243][  0]LogLoad: (Engine Initialization) Total time: 12.79 seconds
-[2019.01.26-04.13.41:243][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.26-04.13.41:262][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.26-04.13.41:327][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.26-04.13.41:344][  0]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.26-04.13.41:368][  1]LogAssetRegistry: Asset discovery search completed in 7.0456 seconds
-[2019.01.26-04.13.41:370][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.26-04.13.41:370][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
-[2019.01.26-04.13.45:344][238]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-04.13.46:808][325]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-04.13.51:927][600]LogSlate: Window 'Source Control Login' being destroyed
-[2019.01.26-04.13.53:478][693]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-04.13.56:484][868]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.26-04.13.56:487][868]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-04.13.56:656][868]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerExampleMap68AB71D2484E8304D00701955303BA3F.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2019.01.26-04.13.57:062][868]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerExampleMap_BuiltDataE4262006441C58F53FCC8BB980F64003.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
-[2019.01.26-04.13.57:601][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
-[2019.01.26-04.13.58:851][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-04.14.01:004][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.01.26-04.14.01:479][127]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-04.14.01:564][127]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-04.14.01:710][127]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerExampleMap49C6A1CC43F86566524FA389E8C96C6D.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2019.01.26-04.14.02:017][127]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerExampleMap_BuiltData8E6B6C8447579C64D6A2C89A3AECC26A.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
-[2019.01.26-04.14.05:911][360]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.21/Engine/Content: 'C:/Program Files/Epic Games/UE_4.21/Engine/Content' is outside repository
-[2019.01.26-04.14.07:598][360]LogSlate: Window 'Submit Files' being destroyed
-[2019.01.26-04.16.41:400][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.01.26-04.18.17:721][642]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-04.20.49:637][504]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.21/Engine/Content: 'C:/Program Files/Epic Games/UE_4.21/Engine/Content' is outside repository
-[2019.01.26-04.20.49:862][504]EditorErrors: Warning: No assets to check in!
-[2019.01.26-04.21.08:361][612]LogSlate: Window 'Source Control Login' being destroyed
-[2019.01.26-04.21.57:885][582]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-04.21.59:079][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.01.26-04.21.59:412][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
-[2019.01.26-04.22.00:516][737]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-04.22.03:371][892]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerExampleMap480C8A6C4817D687B90493A2A9C95E56.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2019.01.26-04.22.03:392][892]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.170
-[2019.01.26-04.22.05:395][ 10]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.21/Engine/Content: 'C:/Program Files/Epic Games/UE_4.21/Engine/Content' is outside repository
-[2019.01.26-04.22.10:752][ 10]LogSlate: Window 'Submit Files' being destroyed
-[2019.01.26-04.22.11:713][ 10]LogSourceControl: commit successful: [master 1b512da] Try this on for size
-[2019.01.26-04.22.11:780][ 10]SourceControl: [master 1b512da] Try this on for size
-[2019.01.26-04.22.11:780][ 10]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
-[2019.01.26-04.22.11:787][ 10]SourceControl: Commited [master 1b512da] Try this on for size.
+[2019.01.26-06.17.26:676][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.01.26-06.17.26:676][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DOF.Algorithm:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.01.26-06.17.26:677][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.EarlyZPassMovable:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[vr.MonoscopicFarField:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-06.17.26:679][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.01.26-06.17.26:679][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.01.26-06.17.26:680][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-06.17.26:680][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-06.17.26:692][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.26-06.17.26:692][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.26-06.17.26:693][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.26-06.17.26:694][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-06.17.26:694][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.26-06.17.26:719][  0]LogHAL: Display: Platform has ~ 4 GB [4216619008 / 4294967296 / 4], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.01.26-06.17.26:723][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.26-06.17.26:723][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.26-06.17.26:723][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.26-06.17.26:724][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.01.26-06.17.26:733][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.01.26-06.17.26:733][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-06.17.26:736][  0]LogInit: Computer: DESKTOP-UBLG6SB
+[2019.01.26-06.17.26:736][  0]LogInit: User: drew1
+[2019.01.26-06.17.26:736][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.01.26-06.17.26:736][  0]LogInit: High frequency timer resolution =2.437503 MHz
+[2019.01.26-06.17.26:737][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2019.01.26-06.17.26:737][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.26-06.17.26:737][  0]LogMemory: Process Physical Memory: 102.65 MB used, 102.65 MB peak
+[2019.01.26-06.17.26:737][  0]LogMemory: Process Virtual Memory: 92.89 MB used, 92.89 MB peak
+[2019.01.26-06.17.26:737][  0]LogMemory: Physical Memory: 2899.28 MB used,  1122.00 MB free, 4021.28 MB total
+[2019.01.26-06.17.26:737][  0]LogMemory: Virtual Memory: 4636.89 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.01.26-06.17.26:885][  0]LogInit: Using OS detected language (en-US).
+[2019.01.26-06.17.26:885][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.26-06.17.26:891][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.26-06.17.27:603][  0]LogStreaming: Display: Took  0.720s to InitEngineTextLocalization.
+[2019.01.26-06.17.27:604][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.26-06.17.27:733][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.26-06.17.27:733][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.26-06.17.31:337][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-06.17.31:337][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.26-06.17.31:379][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2019.01.26-06.17.31:379][  0]LogD3D11RHI:       128/0/2010 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.01.26-06.17.31:408][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.26-06.17.31:408][  0]LogD3D11RHI:       0/0/2010 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.26-06.17.31:408][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.26-06.17.31:414][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.26-06.17.31:414][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.26-06.17.31:414][  0]LogWindows: EnumDisplayDevices:
+[2019.01.26-06.17.31:414][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2019.01.26-06.17.31:415][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.01.26-06.17.31:415][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.01.26-06.17.31:415][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.01.26-06.17.31:415][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2019.01.26-06.17.31:415][  0]LogD3D11RHI:   Driver Version: 24.20.100.6136 (internal:24.20.100.6136, unified:24.20.100.6136)
+[2019.01.26-06.17.31:415][  0]LogD3D11RHI:      Driver Date: 5-25-2018
+[2019.01.26-06.17.31:415][  0]LogRHI: Texture pool is 793 MB (70% of 1133 MB)
+[2019.01.26-06.17.31:544][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
+[2019.01.26-06.17.31:544][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.26-06.17.31:578][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2019.01.26-06.17.32:127][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.26-06.17.32:144][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.26-06.17.32:161][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.26-06.17.32:178][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.26-06.17.32:202][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.26-06.17.32:219][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.26-06.17.32:236][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.26-06.17.32:253][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.26-06.17.32:262][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.17.32:369][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.26-06.17.32:466][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-06.17.32:466][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-06.17.32:499][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-06.17.32:499][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-06.17.32:517][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.26-06.17.32:533][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.26-06.17.32:549][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.26-06.17.32:575][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.26-06.17.32:637][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.26-06.17.32:637][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.26-06.17.32:637][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.26-06.17.32:792][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Intermediate/Shaders/WorkingDirectory/10672/).
+[2019.01.26-06.17.32:792][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/drew1/AppData/Local/Temp/UnrealShaderWorkingDir/A3A1646D4E629B17DB16F394A5BBA00A/'.
+[2019.01.26-06.17.32:796][  0]LogXGEController: Cleaning working directory: C:/Users/drew1/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.26-06.17.32:797][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.26-06.17.32:797][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.26-06.17.32:797][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.26-06.17.35:208][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.26-06.17.35:380][  0]LogDerivedDataCache: Loaded boot cache 0.17s 71MB C:/Users/drew1/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.26-06.17.35:381][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/drew1/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.01.26-06.17.35:381][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.26-06.17.35:381][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.26-06.17.35:381][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.26-06.17.35:381][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.26-06.17.35:411][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.26-06.17.35:411][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.26-06.17.35:411][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.01.26-06.17.35:423][  0]LogDerivedDataCache: Using Local data cache path C:/Users/drew1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.26-06.17.35:423][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.26-06.17.35:423][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.26-06.17.35:457][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.26-06.17.35:460][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.26-06.17.35:486][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.26-06.17.35:972][  0]LogAssetRegistry: FAssetRegistry took 0.0388 seconds to start up
+[2019.01.26-06.17.36:573][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-06.17.36:848][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.26-06.17.36:869][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.26-06.17.36:870][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.26-06.17.36:871][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.26-06.17.36:871][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.26-06.17.37:064][  0]LogNetVersion: WeakenTheStruggle 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 128312146)
+[2019.01.26-06.17.38:702][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.157296 seconds
+[2019.01.26-06.17.38:711][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.01.26-06.17.38:711][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.01.26-06.17.38:711][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.26-06.17.43:401][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.26-06.17.43:416][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.26-06.17.44:565][  0]SourceControl: Source control is disabled
+[2019.01.26-06.17.44:566][  0]SourceControl: Source control is disabled
+[2019.01.26-06.17.44:576][  0]SourceControl: Source control is disabled
+[2019.01.26-06.17.44:580][  0]SourceControl: Source control is disabled
+[2019.01.26-06.17.44:897][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.26-06.17.45:017][  0]LogOcInput: OculusInput pre-init called
+[2019.01.26-06.17.45:264][  0]LogEngine: Initializing Engine...
+[2019.01.26-06.17.45:267][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-06.17.45:271][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-06.17.45:272][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-06.17.45:272][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-06.17.45:272][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-06.17.45:604][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.26-06.17.45:664][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.26-06.17.45:839][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-06.17.46:101][  0]LogInit: FAudioDevice initialized.
+[2019.01.26-06.17.46:102][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.26-06.17.46:232][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/drew1/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.26-06.17.46:269][  0]LogInit: Texture streaming: Enabled
+[2019.01.26-06.17.46:335][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.26-06.17.46:378][  0]LogInit: Transaction tracking system initialized
+[2019.01.26-06.17.46:464][  0]BlueprintLog: New page: Editor Load
+[2019.01.26-06.17.46:758][  0]LocalizationService: Localization service is disabled
+[2019.01.26-06.17.48:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Content/' took 0.03s
+[2019.01.26-06.17.48:218][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.26-06.17.48:218][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.26-06.17.48:219][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.26-06.17.48:219][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-06.17.48:219][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-06.17.48:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2019.01.26-06.17.48:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-06.17.48:685][  0]SourceControl: Source control is disabled
+[2019.01.26-06.17.48:687][  0]Cmd: MAP LOAD FILE="../../../../../../Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-06.17.48:697][  0]LightingResults: New page: Lighting Build
+[2019.01.26-06.17.48:711][  0]MapCheck: New page: Map Check
+[2019.01.26-06.17.48:712][  0]LightingResults: New page: Lighting Build
+[2019.01.26-06.17.49:752][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-06.17.49:834][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-06.17.49:872][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-06.17.49:873][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.45ms to complete.
+[2019.01.26-06.17.49:874][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 1.188
+[2019.01.26-06.17.50:095][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.17.50:110][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.17.50:120][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.17.50:131][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.17.50:201][  0]LogCollectionManager: Loaded 0 collections in 0.003191 seconds
+[2019.01.26-06.17.50:264][  0]LogFileCache: Scanning file cache for directory 'C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Collections/' took 0.01s
+[2019.01.26-06.17.50:264][  0]LogFileCache: Scanning file cache for directory 'C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Content/Developers/drew1/Collections/' took 0.01s
+[2019.01.26-06.17.50:264][  0]LogFileCache: Scanning file cache for directory 'C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Content/Collections/' took 0.01s
+[2019.01.26-06.17.50:264][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.26-06.17.50:280][  0]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2651 classes and 620 folders.
+[2019.01.26-06.17.50:303][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.26-06.17.50:321][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:334][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:369][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:378][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:387][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:396][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:415][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:426][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:437][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:444][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:452][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:461][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:470][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:478][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:486][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:534][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:543][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:551][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:560][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:626][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:635][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:645][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:655][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:664][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:672][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-06.17.50:950][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.26-06.17.50:968][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.01.26-06.17.51:059][  0]LogSlate: Took 0.009913 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.26-06.17.51:072][  0]LogSlate: Took 0.008917 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.26-06.17.51:096][  0]LogSlate: Took 0.009982 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.26-06.17.51:349][  0]LogRenderer: Reallocating scene render targets to support 860x468 Format 10 NumSamples 1 (Frame:1).
+[2019.01.26-06.17.52:116][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.26-06.17.52:116][  0]LogLoad: (Engine Initialization) Total time: 32.34 seconds
+[2019.01.26-06.17.52:116][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.26-06.17.52:223][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.26-06.18.25:898][849]LogAssetRegistry: Asset discovery search completed in 49.9488 seconds
+[2019.01.26-06.18.25:906][849]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.26-06.18.25:906][849]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000914 seconds (updated 0 objects)
