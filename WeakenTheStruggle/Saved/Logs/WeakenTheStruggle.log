@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 01/26/19 11:11:37
+=======
+﻿Log file open, 01/26/19 11:39:38
+>>>>>>> afb03b700c26527dfbbabd8998b5439cc5477ecf
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,8 +13,13 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: WeakenTheStruggle
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.247626
+=======
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.289932
+>>>>>>> afb03b700c26527dfbbabd8998b5439cc5477ecf
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +103,11 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.171s to configure plugins.
+=======
+LogStreaming: Display: Took  0.128s to configure plugins.
+>>>>>>> afb03b700c26527dfbbabd8998b5439cc5477ecf
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,11 +162,12 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2019.01.26-17.11.40:606][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2019.01.26-17.11.40:606][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2019.01.26-17.11.40:607][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/drew1/Desktop/testue4/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
@@ -1827,3 +1841,632 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.01.26-17.49.12:191][505]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2019.01.26-17.49.12:212][505]LogExit: Exiting.
 [2019.01.26-17.49.12:341][505]Log file closed, 01/26/19 11:49:12
+=======
+[2019.01.26-17.39.39:120][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.01.26-17.39.39:120][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.01.26-17.39.39:120][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-17.39.39:120][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.01.26-17.39.39:120][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2019.01.26-17.39.39:120][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.01.26-17.39.39:120][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.01.26-17.39.39:120][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.01.26-17.39.39:120][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DOF.Algorithm:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.EarlyZPassMovable:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[vr.MonoscopicFarField:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.01.26-17.39.39:121][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-17.39.39:121][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.01.26-17.39.39:122][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-17.39.39:122][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-17.39.39:123][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.26-17.39.39:125][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.26-17.39.39:125][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-17.39.39:125][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.26-17.39.39:143][  0]LogHAL: Display: Platform has ~ 16 GB [17033236480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.26-17.39.39:143][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.01.26-17.39.39:143][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.26-17.39.39:144][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.26-17.39.39:144][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.26-17.39.39:145][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.26-17.39.39:146][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Scalability.ini]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.26-17.39.39:147][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.01.26-17.39.39:148][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.01.26-17.39.39:149][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Config/Windows/Engine.ini]
+[2019.01.26-17.39.39:149][  0]LogInit: Computer: LAPTOP-5TJ3H1P0
+[2019.01.26-17.39.39:149][  0]LogInit: User: Shane
+[2019.01.26-17.39.39:149][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.26-17.39.39:149][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2019.01.26-17.39.39:150][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.26-17.39.39:150][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.26-17.39.39:150][  0]LogMemory: Process Physical Memory: 102.54 MB used, 102.54 MB peak
+[2019.01.26-17.39.39:150][  0]LogMemory: Process Virtual Memory: 89.89 MB used, 89.89 MB peak
+[2019.01.26-17.39.39:150][  0]LogMemory: Physical Memory: 6362.28 MB used,  9881.88 MB free, 16244.16 MB total
+[2019.01.26-17.39.39:150][  0]LogMemory: Virtual Memory: 4636.84 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.01.26-17.39.39:194][  0]LogInit: Using OS detected language (en-US).
+[2019.01.26-17.39.39:194][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.26-17.39.39:195][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.26-17.39.39:570][  0]LogStreaming: Display: Took  0.376s to InitEngineTextLocalization.
+[2019.01.26-17.39.39:570][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.26-17.39.39:619][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.26-17.39.39:619][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.26-17.39.39:938][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-17.39.39:938][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.26-17.39.40:024][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.01.26-17.39.40:024][  0]LogD3D11RHI:       6052/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.26-17.39.40:037][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.01.26-17.39.40:037][  0]LogD3D11RHI:       128/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.01.26-17.39.40:039][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.26-17.39.40:039][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.26-17.39.40:039][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.26-17.39.40:067][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.26-17.39.40:067][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.26-17.39.40:067][  0]LogWindows: EnumDisplayDevices:
+[2019.01.26-17.39.40:067][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.01.26-17.39.40:067][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.01.26-17.39.40:068][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.01.26-17.39.40:068][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.01.26-17.39.40:068][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.01.26-17.39.40:069][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.01.26-17.39.40:069][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.01.26-17.39.40:069][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.01.26-17.39.40:069][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.01.26-17.39.40:069][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.26-17.39.40:069][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.26-17.39.40:069][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.01.26-17.39.40:117][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.26-17.39.40:138][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.26-17.39.40:489][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.26-17.39.40:504][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.26-17.39.40:518][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.26-17.39.40:534][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.26-17.39.40:550][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.26-17.39.40:565][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.26-17.39.40:579][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.26-17.39.40:593][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.26-17.39.40:602][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:678][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-17.39.40:680][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.26-17.39.40:745][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-17.39.40:745][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-17.39.40:770][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-17.39.40:770][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-17.39.40:784][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.26-17.39.40:797][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.26-17.39.40:810][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.26-17.39.40:840][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.26-17.39.40:885][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.26-17.39.40:885][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.26-17.39.40:885][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.26-17.39.40:956][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Intermediate/Shaders/WorkingDirectory/688/).
+[2019.01.26-17.39.40:956][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shane/AppData/Local/Temp/UnrealShaderWorkingDir/B4CAAB544BB148612897399D0B7FCEA6/'.
+[2019.01.26-17.39.40:960][  0]LogXGEController: Cleaning working directory: C:/Users/Shane/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.26-17.39.40:960][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.26-17.39.40:960][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.26-17.39.40:960][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.26-17.39.41:536][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.26-17.39.41:586][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Shane/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.26-17.39.41:586][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Shane/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.01.26-17.39.41:586][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.26-17.39.41:586][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.26-17.39.41:586][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.26-17.39.41:586][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.26-17.39.41:600][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.26-17.39.41:600][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.26-17.39.41:600][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.01.26-17.39.41:614][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shane/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.26-17.39.41:614][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.26-17.39.41:614][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.26-17.39.41:637][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.26-17.39.41:639][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.26-17.39.41:640][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.26-17.39.41:747][  0]LogAssetRegistry: FAssetRegistry took 0.0334 seconds to start up
+[2019.01.26-17.39.42:094][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-17.39.42:257][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.26-17.39.42:262][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.26-17.39.42:262][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.26-17.39.42:262][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.26-17.39.42:262][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.26-17.39.42:279][  0]LogNetVersion: WeakenTheStruggle 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 128312146)
+[2019.01.26-17.39.42:830][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.100887 seconds
+[2019.01.26-17.39.42:836][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.01.26-17.39.42:836][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.01.26-17.39.42:836][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.26-17.39.43:989][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.26-17.39.44:002][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.26-17.39.44:899][  0]SourceControl: Source control is disabled
+[2019.01.26-17.39.45:529][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.26-17.39.45:596][  0]LogOcInput: OculusInput pre-init called
+[2019.01.26-17.39.45:784][  0]LogEngine: Initializing Engine...
+[2019.01.26-17.39.45:785][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-17.39.45:787][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-17.39.45:787][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-17.39.45:787][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-17.39.45:787][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-17.39.46:023][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.26-17.39.46:039][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.26-17.39.46:052][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-17.39.46:122][  0]LogInit: FAudioDevice initialized.
+[2019.01.26-17.39.46:122][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.26-17.39.46:169][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/Shane/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.26-17.39.46:178][  0]LogInit: Texture streaming: Enabled
+[2019.01.26-17.39.46:201][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.26-17.39.46:216][  0]LogInit: Transaction tracking system initialized
+[2019.01.26-17.39.46:248][  0]BlueprintLog: New page: Editor Load
+[2019.01.26-17.39.46:343][  0]LocalizationService: Localization service is disabled
+[2019.01.26-17.39.46:819][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.26-17.39.46:819][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.26-17.39.46:819][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.26-17.39.46:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-17.39.46:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-17.39.46:819][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/' took 0.03s
+[2019.01.26-17.39.46:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-17.39.46:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-17.39.46:966][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-17.39.46:966][  0]LightingResults: New page: Lighting Build
+[2019.01.26-17.39.46:970][  0]MapCheck: New page: Map Check
+[2019.01.26-17.39.46:970][  0]LightingResults: New page: Lighting Build
+[2019.01.26-17.39.47:418][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-17.39.47:430][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-17.39.47:454][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-17.39.47:454][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.177ms to complete.
+[2019.01.26-17.39.47:454][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.488
+[2019.01.26-17.39.47:590][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.39.47:599][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.39.47:612][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.39.47:621][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.39.47:631][  0]LogCollectionManager: Loaded 0 collections in 0.003096 seconds
+[2019.01.26-17.39.47:651][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Collections/' took 0.01s
+[2019.01.26-17.39.47:651][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/Developers/Shane/Collections/' took 0.00s
+[2019.01.26-17.39.47:651][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/Collections/' took 0.00s
+[2019.01.26-17.39.47:651][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.26-17.39.47:663][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2651 classes and 620 folders.
+[2019.01.26-17.39.47:673][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.26-17.39.47:675][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:676][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:677][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:678][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:678][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:679][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:679][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:680][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:681][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:681][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:682][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:682][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:683][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:684][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:684][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:685][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:686][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:687][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:687][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:688][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:689][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:689][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:690][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:691][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:692][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:693][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.26-17.39.47:771][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.26-17.39.47:777][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.01.26-17.39.47:794][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.26-17.39.47:797][  0]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.26-17.39.47:803][  0]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.26-17.39.47:887][  0]LogRenderer: Reallocating scene render targets to support 828x408 Format 10 NumSamples 1 (Frame:1).
+[2019.01.26-17.39.48:016][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.26-17.39.48:016][  0]LogLoad: (Engine Initialization) Total time: 11.50 seconds
+[2019.01.26-17.39.48:016][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.26-17.39.48:035][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.26-17.39.48:081][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.26-17.39.48:099][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-17.39.48:218][  2]LogAssetRegistry: Asset discovery search completed in 6.4939 seconds
+[2019.01.26-17.39.48:220][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.26-17.39.48:220][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2019.01.26-17.39.51:753][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.39.51:890][220]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-17.39.51:897][220]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter
+[2019.01.26-17.39.52:365][220]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2019.01.26-17.39.53:137][220]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.26-17.39.53:234][221]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.26-17.41.16:682][152]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-17.41.17:687][199]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-17.41.17:699][199]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.41.17:699][199]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-17.41.17:699][199]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 5:41:17 AM)
+[2019.01.26-17.41.17:712][199]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-17.41.17:732][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019950s)
+[2019.01.26-17.41.17:732][199]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-17.41.17:733][199]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2019.01.26-17.41.17:733][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.021601s)
+[2019.01.26-17.41.17:774][199]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-17.41.17:799][199]LogInit: FAudioDevice initialized.
+[2019.01.26-17.41.17:889][199]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-17.41.17:894][199]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-11.41.17
+[2019.01.26-17.41.17:895][199]LogWorld: Bringing up level for play took: 0.002557
+[2019.01.26-17.41.17:930][199]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2019.01.26-17.41.17:932][199]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.455
+[2019.01.26-17.41.17:933][199]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.41.19:900][316]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.41.19:900][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.41.19:935][316]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-17.41.19:935][316]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.41.19:968][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.41.20:002][318]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.01.26-17.41.22:419][463]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-17.41.22:431][463]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.41.22:431][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-17.41.22:431][463]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 5:41:22 AM)
+[2019.01.26-17.41.22:431][463]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-17.41.22:444][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012141s)
+[2019.01.26-17.41.22:444][463]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-17.41.22:444][463]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2019.01.26-17.41.22:444][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.012839s)
+[2019.01.26-17.41.22:484][463]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-17.41.22:508][463]LogInit: FAudioDevice initialized.
+[2019.01.26-17.41.22:540][463]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-17.41.22:542][463]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-11.41.22
+[2019.01.26-17.41.22:542][463]LogWorld: Bringing up level for play took: 0.001180
+[2019.01.26-17.41.22:555][463]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.168
+[2019.01.26-17.41.22:556][463]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.41.30:570][943]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.41.30:571][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.41.30:610][943]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-17.41.30:611][943]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.41.30:673][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.41.30:693][944]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.01.26-17.41.33:500][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.42.07:938][ 76]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-17.42.10:317][206]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-17.42.10:329][206]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.42.10:329][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-17.42.10:329][206]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 5:42:10 AM)
+[2019.01.26-17.42.10:329][206]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-17.42.10:342][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012495s)
+[2019.01.26-17.42.10:342][206]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-17.42.10:342][206]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2019.01.26-17.42.10:342][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.013496s)
+[2019.01.26-17.42.10:377][206]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-17.42.10:402][206]LogInit: FAudioDevice initialized.
+[2019.01.26-17.42.10:439][206]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-17.42.10:441][206]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-11.42.10
+[2019.01.26-17.42.10:442][206]LogWorld: Bringing up level for play took: 0.001284
+[2019.01.26-17.42.10:457][206]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.069
+[2019.01.26-17.42.10:457][206]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.42.16:718][580]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.42.16:719][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.42.16:758][580]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-17.42.16:758][580]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.42.16:792][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.42.16:821][582]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.01.26-17.42.17:240][607]Cmd: SELECT NONE
+[2019.01.26-17.42.18:213][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.42.18:279][669]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-17.42.18:291][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.42.18:291][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-17.42.18:291][669]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 5:42:18 AM)
+[2019.01.26-17.42.18:291][669]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-17.42.18:304][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012362s)
+[2019.01.26-17.42.18:304][669]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-17.42.18:305][669]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2019.01.26-17.42.18:305][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.013580s)
+[2019.01.26-17.42.18:346][669]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-17.42.18:368][669]LogInit: FAudioDevice initialized.
+[2019.01.26-17.42.18:399][669]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-17.42.18:401][669]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-11.42.18
+[2019.01.26-17.42.18:402][669]LogWorld: Bringing up level for play took: 0.001023
+[2019.01.26-17.42.18:415][669]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.027
+[2019.01.26-17.42.18:415][669]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.42.24:702][ 45]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.42.24:702][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.42.24:740][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-17.42.24:740][ 45]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.42.24:782][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.42.24:800][ 46]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.01.26-17.42.25:641][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.42.34:080][428]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.26-17.42.36:151][540]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-17.42.36:163][540]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.42.36:163][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-17.42.36:163][540]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 5:42:36 AM)
+[2019.01.26-17.42.36:163][540]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.26-17.42.36:175][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011180s)
+[2019.01.26-17.42.36:175][540]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.26-17.42.36:175][540]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2019.01.26-17.42.36:175][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.012025s)
+[2019.01.26-17.42.36:214][540]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-17.42.36:236][540]LogInit: FAudioDevice initialized.
+[2019.01.26-17.42.36:267][540]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.26-17.42.36:269][540]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-11.42.36
+[2019.01.26-17.42.36:269][540]LogWorld: Bringing up level for play took: 0.001286
+[2019.01.26-17.42.36:284][540]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.103
+[2019.01.26-17.42.36:285][540]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.43.05:426][286]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.43.05:426][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.43.05:465][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-17.43.05:465][286]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.26-17.43.05:512][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.43.05:531][287]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.01.26-17.43.06:693][356]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-17.43.06:818][356]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-17.43.07:031][356]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerExampleMapBA0DF588443053D7CF49C7BF0501E734.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2019.01.26-17.43.07:449][356]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerExampleMap_BuiltData516FBB4F4EEE22FDE9C84C8E097FFFDC.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.01.26-17.45.38:573][278]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter503E3020402A6889EA5F70B872F08964.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.26-17.45.40:081][368]BlueprintLog: New page: Compile SideScrollerCharacter
+>>>>>>> afb03b700c26527dfbbabd8998b5439cc5477ecf
