@@ -2020,3 +2020,6 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.01.26-18.55.11:868][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
 [2019.01.26-18.55.11:902][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.01.26-18.55.11:937][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.01.26-18.59.27:667][933]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.047
+[2019.01.26-19.02.11:850][424]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2019.01.26-19.02.12:363][451]LogSlate: FSceneViewport::OnFocusLost() reason 0
