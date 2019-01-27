@@ -1,3 +1,7 @@
+#ignore logs
 *.log
 WeakenTheStruggle/Saved/AutoScreenshot.png
 WeakenTheStruggle/Saved/Backup/SideScrollerExampleMap_2019-01-26-18-20-13.umap
+#ignore backup folder
+backup/
+WeakenTheStruggle/Saved/Backup/SideScrollerExampleMap_2019-01-26-20-06-52.umap
