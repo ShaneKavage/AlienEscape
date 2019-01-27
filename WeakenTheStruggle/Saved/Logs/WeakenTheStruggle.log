@@ -3722,3 +3722,617 @@ Script Stack (0 frames):
 [2019.01.27-03.35.25:180][544]LogPlayLevel: Display: Destroying online subsystem :Context_103
 [2019.01.27-03.35.26:580][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.01.27-03.35.29:993][701]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/ABP_AlienFC1752724555A897FC3A0392265240C9.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.uasset'
+[2019.01.27-03.41.03:674][478]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.038
+[2019.01.27-03.46.21:537][401]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-03.46.21:555][401]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.27-03.46.21:555][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-03.46.21:556][401]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 3:46:21 PM)
+[2019.01.27-03.46.21:556][401]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.27-03.46.21:571][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014884s)
+[2019.01.27-03.46.21:571][401]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.27-03.46.21:572][401]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2019.01.27-03.46.21:572][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.015947s)
+[2019.01.27-03.46.21:626][401]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.27-03.46.21:654][401]LogInit: FAudioDevice initialized.
+[2019.01.27-03.46.21:688][401]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.27-03.46.21:691][401]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-21.46.21
+[2019.01.27-03.46.21:692][401]LogWorld: Bringing up level for play took: 0.002337
+[2019.01.27-03.46.21:711][401]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.677
+[2019.01.27-03.46.21:712][401]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.27-03.46.22:056][419]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Get the Strap!
+[2019.01.27-03.46.22:422][441]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Get the Strap!
+[2019.01.27-03.46.23:089][481]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Get the Strap!
+[2019.01.27-03.46.23:254][491]LogBlueprintUserMessages: [BouncerPickup_2] Equippeed Bouncer!
+[2019.01.27-03.46.24:239][550]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Max Shot Count Reached
+[2019.01.27-03.46.24:371][558]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Max Shot Count Reached
+[2019.01.27-03.46.24:688][577]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Max Shot Count Reached
+[2019.01.27-03.46.25:056][599]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Max Shot Count Reached
+[2019.01.27-03.46.26:240][670]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.27-03.46.26:240][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-03.46.26:282][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-03.46.26:282][670]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.27-03.46.26:336][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-03.46.26:375][671]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2019.01.27-03.46.29:857][879]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.27-03.46.55:729][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-03.47.25:603][830]LogEditorTransaction: Undo Edit Blend Logic
+[2019.01.27-03.47.25:721][830]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.27-03.47.52:966][420]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.21/Engine/Content/Tutorial/ContentIntroCurve.uasset: 'C:/Program Files/Epic Games/UE_4.21/Engine/Content/Tutorial/ContentIntroCurve.uasset' is outside repository
+[2019.01.27-03.47.58:200][733]BlueprintLog: New page: Compile ABP_Alien
+[2019.01.27-03.47.58:220][733]LogBlueprint: Warning: [Compiler ABP_Alien] Runnning to Jumping  will never be taken, please connect something to  Can Enter Transition
+[2019.01.27-03.47.58:225][733]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_33:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Alien_C_24
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.47.58:225][733]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_33:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Alien_C_24
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.47.58:226][733]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.47.58:226][733]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.47.58:445][733]LogBlueprint: Warning: [Compiler ABP_Alien] [4646.95] Compile of ABP_Alien successful, but with 1 Warning(s) [in 244 ms] (/Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien)
+[2019.01.27-03.47.58:508][735]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.47.58:508][735]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.47.58:524][736]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.47.58:524][736]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.47.58:540][737]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.47.58:540][737]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.47.58:557][738]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.47.58:557][738]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.47.58:573][739]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.47.58:573][739]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.47.58:590][740]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.47.58:590][740]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.47.58:607][741]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.47.58:607][741]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.47.58:623][742]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_9
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.48.28:137][460]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.27-03.48.28:247][460]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/ABP_AlienF6370AA24EE05ED4D6215993FEE1E327.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.uasset'
+[2019.01.27-03.48.29:299][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-03.48.29:379][527]BlueprintLog: New page: Compile ABP_Alien
+[2019.01.27-03.48.29:405][527]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_33:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Alien_C_25
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.48.29:405][527]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_33:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Alien_C_25
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.48.29:406][527]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.48.29:406][527]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.48.29:608][527]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.48.29:608][527]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.48.29:642][528]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.48.29:642][528]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.48.29:658][529]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.48.29:658][529]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.48.29:679][530]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.48.29:679][530]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.48.29:691][531]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.48.29:691][531]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.48.29:710][532]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.48.29:710][532]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.48.29:724][533]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.48.29:724][533]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.48.29:741][534]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_10
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.48.30:723][593]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-03.48.30:741][593]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.27-03.48.30:741][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-03.48.30:741][593]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 3:48:30 PM)
+[2019.01.27-03.48.30:741][593]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.27-03.48.30:756][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014948s)
+[2019.01.27-03.48.30:757][593]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.27-03.48.30:757][593]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2019.01.27-03.48.30:757][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.015868s)
+[2019.01.27-03.48.30:808][593]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.27-03.48.30:834][593]LogInit: FAudioDevice initialized.
+[2019.01.27-03.48.30:870][593]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.27-03.48.30:874][593]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-21.48.30
+[2019.01.27-03.48.30:874][593]LogWorld: Bringing up level for play took: 0.002919
+[2019.01.27-03.48.30:889][593]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.501
+[2019.01.27-03.48.30:889][593]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.27-03.48.32:096][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-03.48.32:563][691]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Get the Strap!
+[2019.01.27-03.48.33:494][747]LogBlueprintUserMessages: [BouncerPickup_2] Equippeed Bouncer!
+[2019.01.27-03.48.33:844][768]LogBlueprintUserMessages: [BlasterPickup_2] Equipped Blaster!
+[2019.01.27-03.48.47:549][588]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.27-03.48.47:550][588]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-03.48.47:589][588]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-03.48.47:589][588]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.27-03.48.47:655][588]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-03.48.47:694][589]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2019.01.27-03.48.49:384][668]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.27-03.48.51:242][757]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.27-03.48.51:346][757]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/ABP_Alien759B316C4209447CEA614D83B32AC3CB.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.uasset'
+[2019.01.27-03.49.00:324][293]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.27-03.49.33:539][260]BlueprintLog: New page: Compile ABP_Alien
+[2019.01.27-03.49.33:565][260]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_33:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Alien_C_26
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.49.33:565][260]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_33:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Alien_C_26
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.49.33:566][260]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.49.33:566][260]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.49.33:773][260]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.49.33:773][260]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.49.33:811][261]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.49.33:811][261]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.49.33:837][262]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.49.33:837][262]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.49.33:854][263]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.49.33:854][263]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.49.33:870][264]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.49.33:870][264]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.49.33:886][265]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.49.33:886][265]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.49.33:905][266]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.49.33:905][266]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:00F3
+[2019.01.27-03.49.33:920][267]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Alien_C /Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Alien_C_11
+	Function /Game/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.ABP_Alien_C:ExecuteUbergraph_ABP_Alien:0040
+[2019.01.27-03.49.34:947][319]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.27-03.49.35:047][319]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/ABP_Alien836CF9904FF33BC2975E809B0EA7B408.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Character/PlayerCharacter/ABP_Alien.uasset'
+[2019.01.27-03.49.35:530][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-03.49.37:089][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-03.49.37:189][446]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-03.49.37:206][446]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.27-03.49.37:206][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-03.49.37:206][446]PIE: New page: PIE session: SideScrollerExampleMap (Jan 26, 2019, 3:49:37 PM)
+[2019.01.27-03.49.37:206][446]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.01.27-03.49.37:220][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013824s)
+[2019.01.27-03.49.37:221][446]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.01.27-03.49.37:221][446]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2019.01.27-03.49.37:221][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.014696s)
+[2019.01.27-03.49.37:267][446]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.27-03.49.37:293][446]LogInit: FAudioDevice initialized.
+[2019.01.27-03.49.37:325][446]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.27-03.49.37:328][446]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.01.26-21.49.37
+[2019.01.27-03.49.37:328][446]LogWorld: Bringing up level for play took: 0.002151
+[2019.01.27-03.49.37:343][446]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.954
+[2019.01.27-03.49.37:343][446]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.27-03.49.37:612][461]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Get the Strap!
+[2019.01.27-03.49.38:594][520]LogBlueprintUserMessages: [BouncerPickup_2] Equippeed Bouncer!
+[2019.01.27-03.49.38:945][541]LogBlueprintUserMessages: [BlasterPickup_2] Equipped Blaster!
+[2019.01.27-03.50.06:230][178]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.27-03.50.06:230][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-03.50.06:269][178]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-03.50.06:269][178]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.01.27-03.50.06:305][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-03.50.06:341][179]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2019.01.27-03.50.10:294][415]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.27-03.50.18:148][885]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.27-03.50.20:138][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-03.50.20:338][  9]LogSlate: Window 'ABP_Alien' being destroyed
+[2019.01.27-03.50.20:827][  9]LogSlate: Window 'WeakenTheStruggle - Unreal Editor' being destroyed
+[2019.01.27-03.50.20:830][  9]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.27-03.50.21:112][ 10]Cmd: QUIT_EDITOR
+[2019.01.27-03.50.21:347][ 10]LogExit: Preparing to exit.
+[2019.01.27-03.50.21:784][ 10]LogExit: Editor shut down
+[2019.01.27-03.50.21:791][ 10]LogExit: Transaction tracking system shut down
+[2019.01.27-03.50.22:218][ 10]LogExit: Object subsystem successfully closed.
+[2019.01.27-03.50.22:246][ 10]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.27-03.50.22:256][ 10]LogD3D11RHI: Shutdown
+[2019.01.27-03.50.22:256][ 10]LogD3D11RHI: CleanupD3DDevice
+[2019.01.27-03.50.22:266][ 10]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module PhysicsAssetEditor (644)
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module AnimationEditor (642)
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module BlueprintGraph (640)
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (638)
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module MeshBuilder (636)
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (634)
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module Voice (632)
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module TextureEditor (630)
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (628)
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module PinnedCommandList (626)
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module SkeletonEditor (624)
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (622)
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module SceneOutliner (620)
+[2019.01.27-03.50.22:299][ 10]LogModuleManager: Shutting down and abandoning module AddContentDialog (618)
+[2019.01.27-03.50.22:303][ 10]LogModuleManager: Shutting down and abandoning module WidgetCarousel (617)
+[2019.01.27-03.50.22:303][ 10]LogModuleManager: Shutting down and abandoning module EditorWidgets (614)
+[2019.01.27-03.50.22:303][ 10]LogModuleManager: Shutting down and abandoning module CollectionManager (612)
+[2019.01.27-03.50.22:303][ 10]LogModuleManager: Shutting down and abandoning module StatsViewer (610)
+[2019.01.27-03.50.22:303][ 10]LogModuleManager: Shutting down and abandoning module FoliageEdit (608)
+[2019.01.27-03.50.22:303][ 10]LogModuleManager: Shutting down and abandoning module LandscapeEditor (606)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module MeshPaintMode (604)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (602)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module ActorPickerMode (600)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module GeometryMode (598)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module TextureAlignMode (596)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module BspMode (594)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (592)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (590)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module AutomationWorker (588)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (586)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (584)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (582)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module PlacementMode (581)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module MaterialEditor (580)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (576)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (574)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (572)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (570)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module WebMMedia (568)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (564)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module SequenceRecorder (563)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.01.27-03.50.22:304][ 10]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.01.27-03.50.22:305][ 10]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.01.27-03.50.22:306][ 10]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.01.27-03.50.22:306][ 10]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.01.27-03.50.22:306][ 10]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.01.27-03.50.22:306][ 10]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.01.27-03.50.22:306][ 10]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.01.27-03.50.22:306][ 10]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.01.27-03.50.22:909][ 10]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.01.27-03.50.22:910][ 10]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.01.27-03.50.22:910][ 10]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.01.27-03.50.22:910][ 10]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.01.27-03.50.22:910][ 10]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (502)
+[2019.01.27-03.50.22:910][ 10]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.01.27-03.50.22:910][ 10]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.01.27-03.50.22:910][ 10]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.01.27-03.50.22:911][ 10]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.01.27-03.50.22:911][ 10]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.01.27-03.50.22:911][ 10]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.01.27-03.50.22:911][ 10]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.01.27-03.50.22:911][ 10]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.01.27-03.50.22:911][ 10]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.01.27-03.50.22:911][ 10]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.01.27-03.50.22:912][ 10]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.01.27-03.50.22:913][ 10]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.01.27-03.50.22:913][ 10]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.01.27-03.50.22:913][ 10]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.01.27-03.50.22:913][ 10]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.01.27-03.50.22:913][ 10]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.01.27-03.50.22:913][ 10]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.01.27-03.50.22:913][ 10]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.01.27-03.50.22:970][ 10]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.01.27-03.50.22:970][ 10]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.01.27-03.50.22:970][ 10]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.01.27-03.50.22:970][ 10]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.01.27-03.50.22:971][ 10]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.01.27-03.50.22:971][ 10]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.01.27-03.50.22:971][ 10]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.01.27-03.50.22:972][ 10]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.01.27-03.50.22:972][ 10]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.01.27-03.50.22:972][ 10]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.01.27-03.50.23:012][ 10]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.01.27-03.50.23:013][ 10]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.01.27-03.50.23:016][ 10]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.01.27-03.50.23:016][ 10]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.01.27-03.50.23:016][ 10]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.01.27-03.50.23:016][ 10]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.01.27-03.50.23:016][ 10]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.01.27-03.50.23:016][ 10]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.01.27-03.50.23:021][ 10]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.01.27-03.50.23:021][ 10]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.01.27-03.50.23:021][ 10]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.01.27-03.50.23:021][ 10]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.01.27-03.50.23:021][ 10]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.01.27-03.50.23:021][ 10]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.01.27-03.50.23:021][ 10]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.01.27-03.50.23:021][ 10]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.01.27-03.50.23:021][ 10]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.01.27-03.50.23:022][ 10]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.01.27-03.50.23:022][ 10]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.01.27-03.50.23:022][ 10]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.01.27-03.50.23:022][ 10]LogModuleManager: Shutting down and abandoning module DesktopPlatform (404)
+[2019.01.27-03.50.23:022][ 10]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (402)
+[2019.01.27-03.50.23:030][ 10]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.01.27-03.50.23:196][ 10]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.01.27-03.50.23:196][ 10]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.01.27-03.50.23:196][ 10]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.01.27-03.50.23:196][ 10]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.01.27-03.50.23:196][ 10]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.01.27-03.50.23:196][ 10]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.01.27-03.50.23:196][ 10]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.01.27-03.50.23:196][ 10]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.01.27-03.50.23:196][ 10]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.01.27-03.50.23:196][ 10]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.01.27-03.50.23:196][ 10]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.01.27-03.50.23:196][ 10]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.01.27-03.50.23:196][ 10]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.01.27-03.50.23:197][ 10]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.01.27-03.50.23:197][ 10]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.01.27-03.50.23:197][ 10]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.01.27-03.50.23:197][ 10]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.01.27-03.50.23:210][ 10]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.01.27-03.50.23:210][ 10]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.01.27-03.50.23:210][ 10]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.01.27-03.50.23:210][ 10]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.01.27-03.50.23:210][ 10]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.01.27-03.50.23:210][ 10]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.01.27-03.50.23:210][ 10]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.01.27-03.50.23:210][ 10]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.01.27-03.50.23:210][ 10]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.01.27-03.50.23:210][ 10]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.01.27-03.50.23:211][ 10]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.01.27-03.50.23:211][ 10]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.01.27-03.50.23:211][ 10]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.01.27-03.50.23:211][ 10]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.01.27-03.50.23:211][ 10]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.01.27-03.50.23:211][ 10]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.01.27-03.50.23:211][ 10]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.01.27-03.50.23:211][ 10]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.01.27-03.50.23:212][ 10]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.01.27-03.50.23:212][ 10]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.01.27-03.50.23:212][ 10]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.01.27-03.50.23:212][ 10]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.01.27-03.50.23:212][ 10]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.01.27-03.50.23:212][ 10]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.01.27-03.50.23:212][ 10]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.01.27-03.50.23:212][ 10]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.01.27-03.50.23:212][ 10]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.01.27-03.50.23:212][ 10]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.01.27-03.50.23:213][ 10]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.01.27-03.50.23:213][ 10]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.01.27-03.50.23:213][ 10]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.01.27-03.50.23:213][ 10]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.01.27-03.50.23:213][ 10]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.01.27-03.50.23:213][ 10]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.01.27-03.50.23:214][ 10]LogModuleManager: Shutting down and abandoning module MeshPaint (297)
+[2019.01.27-03.50.23:215][ 10]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.01.27-03.50.23:215][ 10]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.01.27-03.50.23:215][ 10]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.01.27-03.50.23:215][ 10]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.01.27-03.50.23:215][ 10]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.01.27-03.50.23:215][ 10]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.01.27-03.50.23:215][ 10]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.01.27-03.50.23:317][ 10]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.01.27-03.50.23:418][ 10]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.01.27-03.50.23:418][ 10]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.01.27-03.50.23:418][ 10]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.01.27-03.50.23:418][ 10]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.01.27-03.50.23:418][ 10]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.01.27-03.50.23:418][ 10]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.01.27-03.50.23:418][ 10]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.01.27-03.50.23:423][ 10]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.01.27-03.50.23:423][ 10]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.01.27-03.50.23:425][ 10]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.01.27-03.50.23:425][ 10]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.01.27-03.50.23:426][ 10]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.01.27-03.50.23:434][ 10]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.01.27-03.50.23:434][ 10]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.01.27-03.50.23:434][ 10]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.01.27-03.50.23:435][ 10]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.01.27-03.50.23:435][ 10]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.01.27-03.50.23:435][ 10]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.01.27-03.50.23:435][ 10]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.01.27-03.50.23:440][ 10]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.01.27-03.50.23:448][ 10]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.01.27-03.50.23:448][ 10]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.01.27-03.50.23:448][ 10]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.01.27-03.50.23:449][ 10]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.01.27-03.50.23:449][ 10]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.01.27-03.50.23:449][ 10]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.01.27-03.50.23:449][ 10]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.01.27-03.50.23:449][ 10]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.01.27-03.50.23:449][ 10]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.01.27-03.50.23:449][ 10]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.01.27-03.50.23:449][ 10]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.01.27-03.50.23:449][ 10]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.01.27-03.50.23:450][ 10]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.01.27-03.50.23:450][ 10]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.01.27-03.50.23:450][ 10]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.01.27-03.50.23:450][ 10]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.01.27-03.50.23:451][ 10]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.01.27-03.50.23:451][ 10]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.01.27-03.50.23:452][ 10]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.01.27-03.50.23:452][ 10]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.01.27-03.50.23:462][ 10]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.01.27-03.50.23:462][ 10]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.01.27-03.50.23:462][ 10]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.01.27-03.50.23:462][ 10]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.01.27-03.50.23:462][ 10]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.01.27-03.50.23:462][ 10]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.01.27-03.50.23:462][ 10]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.01.27-03.50.23:462][ 10]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.01.27-03.50.23:462][ 10]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.01.27-03.50.23:463][ 10]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.01.27-03.50.23:463][ 10]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.01.27-03.50.23:463][ 10]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.01.27-03.50.23:463][ 10]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.01.27-03.50.23:463][ 10]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.01.27-03.50.23:463][ 10]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.01.27-03.50.23:463][ 10]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.01.27-03.50.23:463][ 10]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.01.27-03.50.23:466][ 10]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.01.27-03.50.23:509][ 10]LogDerivedDataCache: Shutdown
+[2019.01.27-03.50.23:509][ 10]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.01.27-03.50.23:509][ 10]LogXGEController: Cleaning working directory: C:/Users/Shane/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.27-03.50.23:510][ 10]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.01.27-03.50.23:510][ 10]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.01.27-03.50.23:511][ 10]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.01.27-03.50.23:511][ 10]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.01.27-03.50.23:511][ 10]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.01.27-03.50.23:511][ 10]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.01.27-03.50.23:511][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.01.27-03.50.23:511][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.01.27-03.50.23:511][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.01.27-03.50.23:511][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.01.27-03.50.23:512][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.01.27-03.50.23:512][ 10]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.01.27-03.50.23:512][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.01.27-03.50.23:512][ 10]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.01.27-03.50.23:512][ 10]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.01.27-03.50.23:512][ 10]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.01.27-03.50.23:512][ 10]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.01.27-03.50.23:538][ 10]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.01.27-03.50.23:538][ 10]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.01.27-03.50.23:538][ 10]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.01.27-03.50.23:538][ 10]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.01.27-03.50.23:538][ 10]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.01.27-03.50.23:545][ 10]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.01.27-03.50.23:545][ 10]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.01.27-03.50.23:551][ 10]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.01.27-03.50.23:551][ 10]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.01.27-03.50.23:605][ 10]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.01.27-03.50.23:605][ 10]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.01.27-03.50.23:605][ 10]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.01.27-03.50.23:605][ 10]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.01.27-03.50.23:605][ 10]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.01.27-03.50.23:605][ 10]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.01.27-03.50.23:605][ 10]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.01.27-03.50.23:605][ 10]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.01.27-03.50.23:605][ 10]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.01.27-03.50.23:605][ 10]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.01.27-03.50.23:605][ 10]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.01.27-03.50.23:605][ 10]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.01.27-03.50.23:605][ 10]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.01.27-03.50.23:606][ 10]LogHMD: Freeing OpenVRDLLHandle.
+[2019.01.27-03.50.23:606][ 10]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.01.27-03.50.23:606][ 10]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.01.27-03.50.23:606][ 10]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.01.27-03.50.23:606][ 10]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.01.27-03.50.23:606][ 10]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.01.27-03.50.23:607][ 10]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.01.27-03.50.23:607][ 10]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.01.27-03.50.23:627][ 10]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.01.27-03.50.23:627][ 10]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.27-03.50.23:627][ 10]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B72340DC0-4D84-92A3-2642-DDA0D0924281%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=ec686f37495b7712ba07dd960d273bc4%7Ccae67c0b0aa04189a639136c0e3660ff%7C7b5a6786-306c-465a-8060-81fb4c5594e8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.27-03.50.23:637][ 10]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.01.27-03.50.23:639][ 10]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.01.27-03.50.23:639][ 10]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.01.27-03.50.23:639][ 10]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.01.27-03.50.23:639][ 10]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.01.27-03.50.23:639][ 10]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.01.27-03.50.23:639][ 10]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.01.27-03.50.23:639][ 10]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.01.27-03.50.23:640][ 10]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.27-03.50.23:640][ 10]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.01.27-03.50.23:640][ 10]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.01.27-03.50.23:640][ 10]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.27-03.50.23:640][ 10]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.27-03.50.23:641][ 10]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.27-03.50.23:641][ 10]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.27-03.50.23:641][ 10]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.27-03.50.23:641][ 10]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.27-03.50.23:641][ 10]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.27-03.50.23:643][ 10]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.27-03.50.23:643][ 10]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.27-03.50.23:643][ 10]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.27-03.50.23:643][ 10]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.27-03.50.23:643][ 10]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.27-03.50.23:643][ 10]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.27-03.50.23:643][ 10]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.27-03.50.23:643][ 10]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.27-03.50.23:643][ 10]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.27-03.50.23:643][ 10]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.27-03.50.23:643][ 10]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.27-03.50.23:651][ 10]LogExit: Exiting.
+[2019.01.27-03.50.23:673][ 10]Log file closed, 01/26/19 21:50:23
