@@ -2075,3 +2075,37 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.01.27-21.28.12:678][135]TextureStreamingBuild: Display: Compiling optional shaders took 0.961 seconds.
 [2019.01.27-21.28.13:942][260]LogSlate: Window 'M_Box-Laser-Battery_D_Mat*' being destroyed
 [2019.01.27-21.28.13:946][260]LogSlate: Window 'M_Box-Laser-Battery_D_Mat*' being destroyed
+[2019.01.27-21.29.49:711][409]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.017
+[2019.01.27-21.29.49:712][409]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Character/PlayerCharacter/AlienBox/M_Box-Laser-Battery_D_Mat] ([1] browsable assets)...
+[2019.01.27-21.29.49:725][409]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SideScrollerBP/Character/PlayerCharacter/AlienBox/M_Box-Laser-Battery_D_Mat.M_Box-Laser-Battery_D_Mat]
+[2019.01.27-21.29.49:725][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Character/PlayerCharacter/AlienBox/M_Box-Laser-Battery_D_Mat]
+[2019.01.27-21.29.49:755][409]LogSavePackage: Moving 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/M_Box-Laser-Battery_D_Mat_Auto1BC03A89D420DCAA7B41B3390199E31A5.tmp' to 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Autosaves/Game/SideScrollerBP/Character/PlayerCharacter/AlienBox/M_Box-Laser-Battery_D_Mat_Auto1.uasset'
+[2019.01.27-21.29.49:756][409]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/textures/floors/M_MetalFloor_N] ([1] browsable assets)...
+[2019.01.27-21.29.49:763][409]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/textures/floors/M_MetalFloor_N.M_MetalFloor_N]
+[2019.01.27-21.29.49:763][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/textures/floors/M_MetalFloor_N]
+[2019.01.27-21.29.49:776][409]LogSavePackage: Moving 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/M_MetalFloor_N_Auto1ABAC59544EB0D77B864A068C702593CC.tmp' to 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Autosaves/Game/SideScrollerBP/textures/floors/M_MetalFloor_N_Auto1.uasset'
+[2019.01.27-21.29.49:777][409]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/textures/floors/M_MetalTile_N] ([1] browsable assets)...
+[2019.01.27-21.29.49:783][409]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/textures/floors/M_MetalTile_N.M_MetalTile_N]
+[2019.01.27-21.29.49:783][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/textures/floors/M_MetalTile_N]
+[2019.01.27-21.29.49:794][409]LogSavePackage: Moving 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/M_MetalTile_N_Auto1A532B6234F7C02FD34B7598AB62C7B0D.tmp' to 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Autosaves/Game/SideScrollerBP/textures/floors/M_MetalTile_N_Auto1.uasset'
+[2019.01.27-21.29.49:795][409]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/textures/floors/M_MetalTiles_Mat] ([1] browsable assets)...
+[2019.01.27-21.29.49:808][409]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SideScrollerBP/textures/floors/M_MetalTiles_Mat.M_MetalTiles_Mat]
+[2019.01.27-21.29.49:808][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/textures/floors/M_MetalTiles_Mat]
+[2019.01.27-21.29.49:838][409]LogSavePackage: Moving 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/M_MetalTiles_Mat_Auto1E138DFEE4457363A8B011888A14A5D24.tmp' to 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Autosaves/Game/SideScrollerBP/textures/floors/M_MetalTiles_Mat_Auto1.uasset'
+[2019.01.27-21.29.49:839][409]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/textures/floors/walkway] ([1] browsable assets)...
+[2019.01.27-21.29.49:853][409]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SideScrollerBP/textures/floors/walkway.walkway]
+[2019.01.27-21.29.49:853][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/textures/floors/walkway]
+[2019.01.27-21.29.49:880][409]LogSavePackage: Moving 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/walkway_Auto1521E03884EE12EA51FF306BF7BDAD9A2.tmp' to 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Autosaves/Game/SideScrollerBP/textures/floors/walkway_Auto1.uasset'
+[2019.01.27-21.29.49:881][409]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/textures/floors/floor] ([1] browsable assets)...
+[2019.01.27-21.29.49:894][409]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SideScrollerBP/textures/floors/floor.floor]
+[2019.01.27-21.29.49:894][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/textures/floors/floor]
+[2019.01.27-21.29.49:926][409]LogSavePackage: Moving 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/floor_Auto1BDC074B34AD48B36AFAD52B2A2A2D23C.tmp' to 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Autosaves/Game/SideScrollerBP/textures/floors/floor_Auto1.uasset'
+[2019.01.27-21.29.49:927][409]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/textures/floors/wall] ([1] browsable assets)...
+[2019.01.27-21.29.49:939][409]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SideScrollerBP/textures/floors/wall.wall]
+[2019.01.27-21.29.49:939][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/textures/floors/wall]
+[2019.01.27-21.29.49:972][409]LogSavePackage: Moving 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/wall_Auto17906883A40B2E502EA5AFD92C569B2BC.tmp' to 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Autosaves/Game/SideScrollerBP/textures/floors/wall_Auto1.uasset'
+[2019.01.27-21.29.49:973][409]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Character/PlayerCharacter/AlienBox/M_Battery_E] ([1] browsable assets)...
+[2019.01.27-21.29.49:977][409]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/Character/PlayerCharacter/AlienBox/M_Battery_E.M_Battery_E]
+[2019.01.27-21.29.49:977][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Character/PlayerCharacter/AlienBox/M_Battery_E]
+[2019.01.27-21.29.49:986][409]LogSavePackage: Moving 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/M_Battery_E_Auto1769D14CE406AE80D7842679958D2C8EB.tmp' to 'C:/Users/Jacob/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Autosaves/Game/SideScrollerBP/Character/PlayerCharacter/AlienBox/M_Battery_E_Auto1.uasset'
+[2019.01.27-21.29.49:987][409]LogFileHelpers: Auto-saving content packages took 0.275
