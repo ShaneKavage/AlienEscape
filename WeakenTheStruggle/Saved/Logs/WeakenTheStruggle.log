@@ -1082,3 +1082,358 @@ Script Stack (0 frames):
 [2019.01.28-02.05.41:258][814]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Level204E401D24C3E1F23DD6F2B877CE1A220.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/levels/Level2.umap'
 [2019.01.28-02.05.41:301][814]LogFileHelpers: Saving map 'Level2' took 0.477
 [2019.01.28-02.05.49:491][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.06.29:169][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.06.29:411][541]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_FBIAGENT_C /Engine/Transient.World_28:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_FBIAGENT_C_0
+	Function /Game/SideScrollerBP/Blueprints/AI/ABP_FBIAGENT.ABP_FBIAGENT_C:ExecuteUbergraph_ABP_FBIAGENT:0040
+[2019.01.28-02.06.31:693][722]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/AI/FBIAGENT.FBIAGENT
+[2019.01.28-02.08.04:876][841]BlueprintLog: New page: Compile FBIAGENT
+[2019.01.28-02.08.10:580][317]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.08.10:647][325]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.28-02.08.10:680][325]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.08.10:680][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.28-02.08.10:680][325]PIE: New page: PIE session: Level2 (Jan 27, 2019, 2:08:10 PM)
+[2019.01.28-02.08.10:680][325]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2
+[2019.01.28-02.08.10:694][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013612s)
+[2019.01.28-02.08.10:695][325]LogAIModule: Creating AISystem for world Level2
+[2019.01.28-02.08.10:695][325]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2019.01.28-02.08.10:695][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/levels/Level2.Level2 to /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 (0.014456s)
+[2019.01.28-02.08.10:745][325]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.28-02.08.10:772][325]LogInit: FAudioDevice initialized.
+[2019.01.28-02.08.10:804][325]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.28-02.08.10:808][325]LogWorld: Bringing World /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.01.27-20.08.10
+[2019.01.28-02.08.10:810][325]LogWorld: Bringing up level for play took: 0.005159
+[2019.01.28-02.08.10:826][325]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2 0.474
+[2019.01.28-02.08.10:826][325]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.08.16:243][970]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.08.16:244][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.08.16:287][970]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.28-02.08.16:288][970]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.08.16:323][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.08.16:361][971]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.01.28-02.08.20:249][252]LogUObjectBase: Warning: Object is not registered
+[2019.01.28-02.08.20:249][252]LogUObjectBase: Warning: Object is not registered
+[2019.01.28-02.08.20:251][252]LogUObjectBase: Warning: Object is not registered
+[2019.01.28-02.08.20:253][252]LogUObjectBase: Warning: Object is not registered
+[2019.01.28-02.08.20:257][252]LogUObjectBase: Warning: Object is not registered
+[2019.01.28-02.08.20:901][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.09.38:580][736]BlueprintLog: New page: Compile FBIAGENT
+[2019.01.28-02.09.40:145][828]LogUObjectBase: Warning: Object is not registered
+[2019.01.28-02.09.40:146][828]LogUObjectBase: Warning: Object is not registered
+[2019.01.28-02.09.40:943][888]LogUObjectBase: Warning: Object is not registered
+[2019.01.28-02.09.40:944][888]LogUObjectBase: Warning: Object is not registered
+[2019.01.28-02.09.41:236][907]LogUObjectBase: Warning: Object is not registered
+[2019.01.28-02.09.41:236][907]LogUObjectBase: Warning: Object is not registered
+[2019.01.28-02.09.41:238][907]LogUObjectBase: Warning: Object is not registered
+[2019.01.28-02.09.43:961][115]LogSlate: Window 'FBIAGENT*' being destroyed
+[2019.01.28-02.09.43:972][115]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.28-02.09.45:542][278]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.09.48:019][544]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Projectiles/AlienShot.AlienShot
+[2019.01.28-02.09.58:058][311]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-02.09.58:140][311]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/AlienShotC358002E4414930FD2582BA0C3B6E5C0.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/Projectiles/AlienShot.uasset'
+[2019.01.28-02.09.59:620][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.10.14:161][767]BlueprintLog: New page: Compile AlienShot
+[2019.01.28-02.10.15:532][861]LogSlate: Window 'AlienShot' being destroyed
+[2019.01.28-02.10.16:786][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.10.22:296][513]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Level26DFEF5DF4A37C1B8C2E602AB5DC38077.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/levels/Level2.umap'
+[2019.01.28-02.10.22:340][513]LogFileHelpers: Saving map 'Level2' took 0.439
+[2019.01.28-02.10.22:443][513]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/FBIAGENT1FD18DBC4DCEDBDAC051A884590B572F.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/AI/FBIAGENT.uasset'
+[2019.01.28-02.10.22:872][548]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Projectiles/BlasterShot.BlasterShot
+[2019.01.28-02.10.28:303][913]BlueprintLog: New page: Compile BlasterShot
+[2019.01.28-02.10.29:824][ 18]LogSlate: Window 'BlasterShot*' being destroyed
+[2019.01.28-02.10.29:832][ 18]LogSlate: Window 'BlasterShot*' being destroyed
+[2019.01.28-02.10.31:282][156]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Projectiles/BounerShot.BounerShot
+[2019.01.28-02.10.41:317][840]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/BounerShotB437692B48BF7F4897A906AE8EA6A6F7.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/Projectiles/BounerShot.uasset'
+[2019.01.28-02.10.42:295][909]LogSlate: Window 'BounerShot' being destroyed
+[2019.01.28-02.10.42:303][909]LogSlate: Window 'BounerShot' being destroyed
+[2019.01.28-02.10.49:380][659]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/BlasterShot6B4F4CC441F928BE292BAB88D3FEC374.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/Projectiles/BlasterShot.uasset'
+[2019.01.28-02.12.00:297][379]LogHttp: Warning: 00000215C4F03600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.28-02.12.00:297][379]LogHttp: Warning: 00000215C4F03600: libcurl info message cache 0 (Connection 18 seems to be dead!)
+[2019.01.28-02.12.00:297][379]LogHttp: Warning: 00000215C4F03600: libcurl info message cache 1 (Closing connection 18)
+[2019.01.28-02.12.00:298][379]LogHttp: Warning: 00000215C4F03600: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.01.28-02.12.00:298][379]LogHttp: Warning: 00000215C4F03600: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.28-02.12.00:298][379]LogHttp: Warning: 00000215C4F03600: libcurl info message cache 4 (Closing connection 19)
+[2019.01.28-02.12.00:298][379]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBB08A8AA-4DAE-E680-A477-D288636008EF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=ec686f37495b7712ba07dd960d273bc4%7Ccae67c0b0aa04189a639136c0e3660ff%7C7b5a6786-306c-465a-8060-81fb4c5594e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.01.28-02.12.37:049][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2019.01.28-02.12.40:269][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.12.47:106][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.12.50:658][427]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2019.01.28-02.13.03:997][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.13.09:712][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.13.12:424][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.13.19:810][711]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
+[2019.01.28-02.13.22:170][985]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint4)
+[2019.01.28-02.13.23:501][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2019.01.28-02.13.28:909][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Asset_Box_Stairs4)
+[2019.01.28-02.13.29:433][810]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
+[2019.01.28-02.13.32:106][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.13.32:771][126]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Level26F1C64384B7CDA74D4548EB3EBBAEAD6.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/levels/Level2.umap'
+[2019.01.28-02.13.37:425][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Asset_Box_Stairs4)
+[2019.01.28-02.13.38:725][766]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint4)
+[2019.01.28-02.13.49:693][ 16]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume3)
+[2019.01.28-02.13.51:176][183]Cmd: EDIT COPY
+[2019.01.28-02.13.51:390][208]Cmd: EDIT PASTE
+[2019.01.28-02.14.03:061][477]Cmd: EDIT PASTE
+[2019.01.28-02.14.17:889][ 68]LogEditorViewport: Clicking on Actor (LMB): KeyCardlvl2_C (KeyCardlvl2)
+[2019.01.28-02.14.18:800][170]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint6)
+[2019.01.28-02.14.21:039][427]LogEditorViewport: Clicking on Actor (LMB): KeyCardlvl2_C (KeyCardlvl2)
+[2019.01.28-02.14.26:661][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.14.27:341][ 50]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Level2FC70DA2B430621A495DEE3BAE9A6EC11.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/levels/Level2.umap'
+[2019.01.28-02.14.48:174][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Asset_Box_Stairs4)
+[2019.01.28-02.14.48:980][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2019.01.28-02.14.49:802][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2019.01.28-02.14.50:392][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2019.01.28-02.14.50:903][621]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume2)
+[2019.01.28-02.14.52:039][748]Cmd: EDIT COPY
+[2019.01.28-02.14.52:231][770]Cmd: EDIT PASTE
+[2019.01.28-02.15.00:332][630]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-02.15.01:157][704]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-02.15.01:280][704]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-02.15.01:808][704]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/Level24995DAB2450BB6603D9F1E980D75A53D.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Maps/levels/Level2.umap'
+[2019.01.28-02.15.01:870][704]LogFileHelpers: Saving map 'Level2' took 0.572
+[2019.01.28-02.15.08:390][436]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.15.08:468][444]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.28-02.15.08:494][444]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.15.08:494][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.28-02.15.08:494][444]PIE: New page: PIE session: Level2 (Jan 27, 2019, 2:15:08 PM)
+[2019.01.28-02.15.08:495][444]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2
+[2019.01.28-02.15.08:515][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020017s)
+[2019.01.28-02.15.08:516][444]LogAIModule: Creating AISystem for world Level2
+[2019.01.28-02.15.08:516][444]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2019.01.28-02.15.08:516][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/levels/Level2.Level2 to /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 (0.021177s)
+[2019.01.28-02.15.08:575][444]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.28-02.15.08:610][444]LogInit: FAudioDevice initialized.
+[2019.01.28-02.15.08:643][444]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.28-02.15.08:647][444]LogWorld: Bringing World /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.01.27-20.15.08
+[2019.01.28-02.15.08:649][444]LogWorld: Bringing up level for play took: 0.005327
+[2019.01.28-02.15.08:665][444]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2 0.324
+[2019.01.28-02.15.08:665][444]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.15.49:227][277]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.15.49:228][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.15.49:266][277]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.28-02.15.49:266][277]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.15.49:308][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.15.49:333][279]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.01.28-02.15.55:681][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.15.55:757][ 42]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.28-02.15.55:782][ 42]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.15.55:782][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.28-02.15.55:782][ 42]PIE: New page: PIE session: Level2 (Jan 27, 2019, 2:15:55 PM)
+[2019.01.28-02.15.55:783][ 42]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2
+[2019.01.28-02.15.55:801][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018115s)
+[2019.01.28-02.15.55:801][ 42]LogAIModule: Creating AISystem for world Level2
+[2019.01.28-02.15.55:802][ 42]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2019.01.28-02.15.55:802][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/levels/Level2.Level2 to /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 (0.019096s)
+[2019.01.28-02.15.55:851][ 42]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.28-02.15.55:882][ 42]LogInit: FAudioDevice initialized.
+[2019.01.28-02.15.55:917][ 42]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.28-02.15.55:922][ 42]LogWorld: Bringing World /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.01.27-20.15.55
+[2019.01.28-02.15.55:924][ 42]LogWorld: Bringing up level for play took: 0.005312
+[2019.01.28-02.15.55:940][ 42]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2 -0.401
+[2019.01.28-02.15.55:940][ 42]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.16.07:168][378]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.16.07:168][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.16.07:203][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.28-02.16.07:204][378]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.16.07:239][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.16.07:281][379]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2019.01.28-02.16.09:936][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.16.13:783][ 43]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/AI/FBIAGENT.FBIAGENT
+[2019.01.28-02.16.18:305][266]BlueprintLog: New page: Compile FBIAGENT
+[2019.01.28-02.16.19:923][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.16.20:006][374]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.28-02.16.20:048][374]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.16.20:048][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.28-02.16.20:048][374]PIE: New page: PIE session: Level2 (Jan 27, 2019, 2:16:20 PM)
+[2019.01.28-02.16.20:048][374]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2
+[2019.01.28-02.16.20:068][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018630s)
+[2019.01.28-02.16.20:068][374]LogAIModule: Creating AISystem for world Level2
+[2019.01.28-02.16.20:069][374]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2019.01.28-02.16.20:069][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/levels/Level2.Level2 to /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 (0.019647s)
+[2019.01.28-02.16.20:120][374]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.28-02.16.20:150][374]LogInit: FAudioDevice initialized.
+[2019.01.28-02.16.20:182][374]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.28-02.16.20:186][374]LogWorld: Bringing World /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.01.27-20.16.20
+[2019.01.28-02.16.20:187][374]LogWorld: Bringing up level for play took: 0.005226
+[2019.01.28-02.16.20:204][374]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2 -0.137
+[2019.01.28-02.16.20:204][374]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.16.24:882][928]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.16.24:882][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.16.24:927][928]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.28-02.16.24:927][928]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.16.24:971][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.16.25:013][929]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2019.01.28-02.16.32:464][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.16.42:503][840]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Projectiles/AlienShot.AlienShot
+[2019.01.28-02.16.46:094][ 26]LogRenderer: Reallocating scene render targets to support 1020x532 Format 10 NumSamples 1 (Frame:1).
+[2019.01.28-02.16.50:096][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.16.59:266][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.17.10:239][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.17.13:325][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.17.16:103][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.17.17:435][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.17.27:202][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.17.27:281][668]BlueprintLog: New page: Compile AlienShot
+[2019.01.28-02.17.30:909][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.17.30:992][897]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.28-02.17.31:023][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.17.31:023][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.28-02.17.31:023][897]PIE: New page: PIE session: Level2 (Jan 27, 2019, 2:17:31 PM)
+[2019.01.28-02.17.31:024][897]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2
+[2019.01.28-02.17.31:042][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018328s)
+[2019.01.28-02.17.31:043][897]LogAIModule: Creating AISystem for world Level2
+[2019.01.28-02.17.31:043][897]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2019.01.28-02.17.31:043][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/levels/Level2.Level2 to /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 (0.019656s)
+[2019.01.28-02.17.31:099][897]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.28-02.17.31:131][897]LogInit: FAudioDevice initialized.
+[2019.01.28-02.17.31:166][897]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.28-02.17.31:170][897]LogWorld: Bringing World /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.01.27-20.17.31
+[2019.01.28-02.17.31:172][897]LogWorld: Bringing up level for play took: 0.005311
+[2019.01.28-02.17.31:188][897]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2 0.848
+[2019.01.28-02.17.31:188][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.17.35:318][384]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.17.35:319][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.17.35:368][384]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.28-02.17.35:368][384]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.17.35:429][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.17.35:469][385]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2019.01.28-02.17.36:760][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.17.48:635][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.17.48:714][319]BlueprintLog: New page: Compile AlienShot
+[2019.01.28-02.17.49:944][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2019.01.28-02.17.51:282][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.17.51:376][535]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.28-02.17.51:408][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.17.51:408][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.28-02.17.51:408][535]PIE: New page: PIE session: Level2 (Jan 27, 2019, 2:17:51 PM)
+[2019.01.28-02.17.51:409][535]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2
+[2019.01.28-02.17.51:430][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021389s)
+[2019.01.28-02.17.51:431][535]LogAIModule: Creating AISystem for world Level2
+[2019.01.28-02.17.51:431][535]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2019.01.28-02.17.51:431][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/levels/Level2.Level2 to /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 (0.022714s)
+[2019.01.28-02.17.51:498][535]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.28-02.17.51:531][535]LogInit: FAudioDevice initialized.
+[2019.01.28-02.17.51:564][535]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.28-02.17.51:568][535]LogWorld: Bringing World /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.01.27-20.17.51
+[2019.01.28-02.17.51:570][535]LogWorld: Bringing up level for play took: 0.004947
+[2019.01.28-02.17.51:589][535]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2 -0.752
+[2019.01.28-02.17.51:590][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.17.53:062][703]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.17.53:062][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.17.53:120][703]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.28-02.17.53:120][703]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.17.53:165][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.17.53:203][704]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2019.01.28-02.17.57:732][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.17.58:828][220]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter
+[2019.01.28-02.18.12:428][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.18.17:882][ 37]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Saved/SideScrollerCharacter66EBB2874262387EB798B696E1602C83.tmp' to '../../../../../../Users/Shane/Documents/GitHub/AlienEscape/WeakenTheStruggle/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2019.01.28-02.18.21:415][209]BlueprintLog: New page: Compile SideScrollerCharacter
+[2019.01.28-02.18.29:627][ 99]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.28-02.18.29:675][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.18.29:675][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.28-02.18.29:675][ 99]PIE: New page: PIE session: Level2 (Jan 27, 2019, 2:18:29 PM)
+[2019.01.28-02.18.29:715][ 99]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2
+[2019.01.28-02.18.29:733][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018295s)
+[2019.01.28-02.18.29:734][ 99]LogAIModule: Creating AISystem for world Level2
+[2019.01.28-02.18.29:734][ 99]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2019.01.28-02.18.29:734][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/levels/Level2.Level2 to /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 (0.019297s)
+[2019.01.28-02.18.29:802][ 99]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.28-02.18.29:836][ 99]LogInit: FAudioDevice initialized.
+[2019.01.28-02.18.29:873][ 99]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.28-02.18.29:878][ 99]LogWorld: Bringing World /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.01.27-20.18.29
+[2019.01.28-02.18.29:880][ 99]LogWorld: Bringing up level for play took: 0.005996
+[2019.01.28-02.18.29:896][ 99]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2 -0.445
+[2019.01.28-02.18.29:896][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.18.46:341][ 49]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.28-02.18.47:028][131]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.28-02.19.05:619][351]LogCharacterMovement: SideScrollerCharacter_C_0 is stuck and failed to move! Velocity: X=0.00 Y=89.44 Z=0.00 Location: X=689.00 Y=308.72 Z=1070.56 Normal: X=-0.22 Y=-0.98 Z=0.00 PenetrationDepth:0.477 Actor:AlienShot_C_4 Component:Sphere BoneName:None (0 other events since notify)
+[2019.01.28-02.19.34:380][745]LogCharacterMovement: SideScrollerCharacter_C_0 is stuck and failed to move! Velocity: X=0.00 Y=-410.66 Z=0.00 Location: X=689.00 Y=750.66 Z=66.52 Normal: X=-0.25 Y=0.97 Z=0.00 PenetrationDepth:1.336 Actor:AlienShot_C_89 Component:Sphere BoneName:None (0 other events since notify)
+[2019.01.28-02.19.35:948][930]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.28-02.19.37:471][112]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.28-02.19.37:896][162]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.28-02.19.39:502][354]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.28-02.19.42:520][715]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.19.42:521][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.19.42:562][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.28-02.19.42:563][715]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.19.42:611][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.19.42:655][716]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2019.01.28-02.20.46:904][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.20.46:982][384]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.28-02.20.47:015][384]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.20.47:015][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.28-02.20.47:015][384]PIE: New page: PIE session: Level2 (Jan 27, 2019, 2:20:47 PM)
+[2019.01.28-02.20.47:016][384]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2
+[2019.01.28-02.20.47:034][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018470s)
+[2019.01.28-02.20.47:035][384]LogAIModule: Creating AISystem for world Level2
+[2019.01.28-02.20.47:035][384]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2019.01.28-02.20.47:035][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/levels/Level2.Level2 to /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 (0.019454s)
+[2019.01.28-02.20.47:095][384]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.28-02.20.47:125][384]LogInit: FAudioDevice initialized.
+[2019.01.28-02.20.47:160][384]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.28-02.20.47:165][384]LogWorld: Bringing World /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.01.27-20.20.47
+[2019.01.28-02.20.47:167][384]LogWorld: Bringing up level for play took: 0.005385
+[2019.01.28-02.20.47:183][384]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2 0.841
+[2019.01.28-02.20.47:183][384]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.20.51:056][835]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.20.51:057][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.20.51:102][835]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.28-02.20.51:102][835]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.20.51:150][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.20.51:193][836]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2019.01.28-02.20.54:659][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.21.25:141][161]LogSlate: Window 'AlienShot*' being destroyed
+[2019.01.28-02.21.25:152][161]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.28-02.21.26:356][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.21.27:659][347]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Projectiles/WeaponPowerups/AlienGunPickup.AlienGunPickup
+[2019.01.28-02.21.34:607][807]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.21.34:697][817]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.28-02.21.34:733][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.21.34:733][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.28-02.21.34:734][817]PIE: New page: PIE session: Level2 (Jan 27, 2019, 2:21:34 PM)
+[2019.01.28-02.21.34:734][817]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2
+[2019.01.28-02.21.34:756][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021357s)
+[2019.01.28-02.21.34:756][817]LogAIModule: Creating AISystem for world Level2
+[2019.01.28-02.21.34:757][817]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2019.01.28-02.21.34:757][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/levels/Level2.Level2 to /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 (0.022648s)
+[2019.01.28-02.21.34:827][817]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.28-02.21.34:860][817]LogInit: FAudioDevice initialized.
+[2019.01.28-02.21.34:895][817]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.28-02.21.34:900][817]LogWorld: Bringing World /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.01.27-20.21.34
+[2019.01.28-02.21.34:902][817]LogWorld: Bringing up level for play took: 0.005169
+[2019.01.28-02.21.34:918][817]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2 0.577
+[2019.01.28-02.21.34:918][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.21.44:656][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.21.44:657][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.21.44:698][966]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.28-02.21.44:698][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.21.44:757][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.21.44:797][967]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2019.01.28-02.21.52:849][750]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-02.22.19:954][272]BlueprintLog: New page: Compile AlienGunPickup
+[2019.01.28-02.22.21:818][420]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.28-02.22.21:851][420]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.22.21:852][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.28-02.22.21:852][420]PIE: New page: PIE session: Level2 (Jan 27, 2019, 2:22:21 PM)
+[2019.01.28-02.22.21:852][420]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2
+[2019.01.28-02.22.21:871][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019342s)
+[2019.01.28-02.22.21:872][420]LogAIModule: Creating AISystem for world Level2
+[2019.01.28-02.22.21:872][420]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2019.01.28-02.22.21:872][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/levels/Level2.Level2 to /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 (0.020532s)
+[2019.01.28-02.22.21:939][420]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.28-02.22.21:969][420]LogInit: FAudioDevice initialized.
+[2019.01.28-02.22.22:000][420]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.01.28-02.22.22:005][420]LogWorld: Bringing World /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.01.27-20.22.22
+[2019.01.28-02.22.22:007][420]LogWorld: Bringing up level for play took: 0.005297
+[2019.01.28-02.22.22:023][420]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/levels/UEDPIE_0_Level2 -0.318
+[2019.01.28-02.22.22:023][420]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.22.30:383][415]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.28-02.22.31:654][567]LogCharacter: SideScrollerCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.01.28-02.22.34:625][921]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.22.34:625][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.22.34:666][921]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.28-02.22.34:666][921]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/SideScrollerBP/Maps/levels/Level2.Level2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/levels/Level2.Level2:PersistentLevel.Level2'
+[2019.01.28-02.22.34:707][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.28-02.22.34:749][922]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2019.01.28-02.22.38:288][242]LogSlate: FSceneViewport::OnFocusLost() reason 2
